@@ -1,0 +1,11 @@
+var d=Object.defineProperty;var f=(i,a,e)=>a in i?d(i,a,{enumerable:!0,configurable:!0,writable:!0,value:e}):i[a]=e;var l=(i,a,e)=>f(i,typeof a!="symbol"?a+"":a,e);var c=(i,a,e)=>new Promise((n,r)=>{var t=s=>{try{p(e.next(s))}catch(m){r(m)}},o=s=>{try{p(e.throw(s))}catch(m){r(m)}},p=s=>s.done?n(s.value):Promise.resolve(s.value).then(t,o);p((e=e.apply(i,a)).next())});import{M as h}from"./MapExt-DVovzpWn.js";import{TBCascader as y}from"./TBCascader-EF9dgMod.js";import{PageBaseGroupEdit as u}from"./PageBaseGroupEdit-BXdNWKIo.js";import{G as C,m as P}from"./entry/index-B5R3Coa4-1746862693206.js";import{MapAttr as E}from"./MapAttr-DcWjEeWW.js";import{GloComm as w}from"./GloComm-B1xAfTWw.js";import"./SFTable-BpxUt1jb.js";import"./SFDBSrc-DbkqYXE6.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";import"./Help-D0bDMZWg.js";import"./Events-D9tOL1Ad.js";import"./FrmTrack-Ct-No0Nq.js";import"./DBAccess-CZ0wdWXU.js";import"./SFPara-B3cj-DF1.js";import"./SFColumn-1gJai08U.js";import"./DataBankBase--yEAzp5n.js";import"./GloDBSrcHelper-CD3_17zK.js";class U extends u{constructor(){super("GPE_Cascader");l(this,"Desc0",` 
+  #### 帮助
+  - 用于解决三级级联的关系选择,比如：省份、城市、区县
+  - 也可以采用级联的模式.
+  - 系统的存储类似于pop的有两个字段，一个字段abc, 影子字段abcT。
+  - 字段：abc存储的是编号，格式为: 37-29-23 
+  - 字段: abcT存储的是名称，格式为: 山东省-菏泽市-定陶区.  这个字段是隐藏字段,由系统自动增加上的.
+  #### 效果图
+  - ![级联选择器:效果图.](./resource/WF/CCForm/Cascader.png "级联选择器")
+  
+   `);this.PageTitle="级联选择器"}Init(){return c(this,null,function*(){this.entity=new h,this.KeyOfEn="DoWay",yield this.entity.InitDataForMapAttr("Cascader",this.GetRequestVal("PKVal"),"None"),this.AddGroup("A","字段格式"),this.Blank("None","不启用",this.Desc0),this.AddEntity("Cascader3","启用3级级联",new y,this.Desc0),this.Btns=[{pageNo:"Cascader3",list:["填充"]}]})}AfterSave(e,n){return c(this,null,function*(){if(e!="None"){let r=this.GetRequestVal("PKVal");r.endsWith("_Cascader")&&(r=r.replace("_Cascader",""));const t=new E,o=r;t.setPKVal(r+"T"),(yield t.RetrieveFromDBSources())==0&&(t.setPKVal(o),yield t.RetrieveFromDBSources(),t.MyPK=t.MyPK+"T",t.KeyOfEn=t.KeyOfEn+"T",t.Name=t.Name+"T",t.UIVisible=!1,t.UIIsEnable=!1,yield t.Insert())}if(e==n)throw new Error("Method not implemented.")})}BtnClick(e,n,r){var t;if(r==="落值填充"||r==="填充"){const o=w.UrlEn("TS.MapExt.FullData",(t=this.entity)==null?void 0:t.MyPK);return new C(P.OpenUrlByDrawer75,o)}}}export{U as GPE_Cascader};

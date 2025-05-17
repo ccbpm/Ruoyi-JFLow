@@ -1,0 +1,1 @@
+import{bK as n,bL as h,bM as r,bN as u}from"./entry/index-B5R3Coa4-1746862693206.js";import{f as c,o as f,y as s,w as p}from"./vue-B6GVRDGm.js";const m=(i,a)=>{const o=c(),t=()=>{o.value=h(i).height};return f(()=>{if(s(t),a)for(let e=1;e<=3;e++)setTimeout(t,100*e)}),n(()=>s(t)),p([r,u],t),o};export{m as u};

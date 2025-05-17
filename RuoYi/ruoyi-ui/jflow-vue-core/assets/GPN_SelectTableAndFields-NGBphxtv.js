@@ -1,0 +1,10 @@
+var S=Object.defineProperty;var f=(a,s,e)=>s in a?S(a,s,{enumerable:!0,configurable:!0,writable:!0,value:e}):a[s]=e;var P=(a,s,e)=>f(a,typeof s!="symbol"?s+"":s,e);var p=(a,s,e)=>new Promise((o,n)=>{var m=t=>{try{i(e.next(t))}catch(l){n(l)}},d=t=>{try{i(e.throw(t))}catch(l){n(l)}},i=t=>t.done?o(t.value):Promise.resolve(t.value).then(m,d);i((e=e.apply(a,s)).next())});import{P as F,F as T,G as D,m as b}from"./entry/index-B5R3Coa4-1746862693206.js";import{SyncData as w}from"./SyncData-DnrRURbg.js";import{SyncDataField as A}from"./SyncDataField-BV5oJZwH.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";import"./DBAccess-CZ0wdWXU.js";import"./SFTable-BpxUt1jb.js";import"./SFDBSrc-DbkqYXE6.js";import"./SFPara-B3cj-DF1.js";import"./SFColumn-1gJai08U.js";import"./DataBankBase--yEAzp5n.js";import"./MapAttr-DcWjEeWW.js";import"./Events-D9tOL1Ad.js";import"./GloDBSrcHelper-CD3_17zK.js";class q extends F{constructor(){super("GPN_SelectTableAndFields");P(this,"Docs0",`
+  #### 帮助
+  - 请在右边的下拉框里选择要同步的数据表.
+  - 选择要同步的流程业务字段.
+  - 点击创建按钮，系统就会自动把要同步的业务字段信息，写入到从表里.
+  - 通过配置流程数据与要同步的字段关系,完成同步内容设置.
+`);P(this,"Docs1",`
+  #### 帮助
+  - 自动抄送给要绑定的人员.
+`);this.PageTitle="表与字段",this.ForEntityClassID="TS.AttrFlow.SyncDataField"}Init(){return p(this,null,function*(){this.AddGroup("A","选择流程业务字段,在选择要同步的数据表");const e=this.RequestVal("RefPKVal"),o=new w;o.MyPK=e,yield o.RetrieveFromDBSources();const n=Number.parseInt(o.FlowNo),m=T.SQLOfSelectTableAndFields(n);this.SelectItemsByList("DBSrc","选择要同步的数据",this.Docs0,!0,m)})}GenerSorts(){return p(this,null,function*(){return Promise.resolve([])})}Save_TextBox_X(e,o,n,m,d){return p(this,null,function*(){const i=this.RequestVal("RefPKVal"),t=new w;if(t.MyPK=i,yield t.RetrieveFromDBSources(),!t.PTable&&t.PTable!=o){const c=`您确定要更改同步到的数据表吗？原来的表是[${t.PTable}],现在的表是[${o}]'`;window.confirm(c)==!0&&(t.PTable=o,yield t.Update())}const l=n.split(","),y=m.split(","),r=new A;for(let c=0;c<l.length;c++){const u=l[c];r.MyPK=i+"_"+u,(yield r.IsExits())!=!0&&(r.RefPKVal=i,r.AttrKey=u,r.AttrName=y[c],r.AttrType=1,r.IsSync=!0,r.FlowNo=t.FlowNo,yield r.Insert())}return new D(b.CloseAndReload)})}}export{q as GPN_SelectTableAndFields};

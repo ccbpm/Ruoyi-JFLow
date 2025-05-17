@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> iframe differentOrigin</title>
+</head>
+
+<body>
+  <div id='span1'></div>
+  <div id='span2'></div>
+  <h3>iframe differentOrigin</h3>
+</body>
+<script type="text/javascript">
+  /**
+   *  节点属性未启用 : 是否等待嵌入式表单消息
+   *  e.data.cmd 只执行parentWin.postMessage定义的方法
+   **/
+  // 监听 message 的变化
+  // window.addEventListener('message', function (e) {
+  //   document.getElementById('span1').innerHTML = JSON.stringify(e.data) // 作为第一个参数传递给postMessage的数据
+  //   document.getElementById('span2').innerHTML = e.origin // 发送消息的来源，可以根据origin来确保期望的发送者
+  //   var parentWin = e.source // 发送消息的window代理对象
+  //   var data = e.data;
+  //   console.log('data.cmd', data.cmd)
+  //   switch (data.cmd) {
+  //     case 'SaveAll':
+  //       Save(data.params);
+  //       break;
+  //   }
+  //   parentWin.postMessage(
+  //     {
+  //       cmd: 'Save',
+  //       params: { 'data': true },
+  //     },
+  //     e.origin,
+  //   );
+  // });
+  // function Save(params) {
+  //   alert(33)
+  //   return true;
+  // }
+
+  /**
+   *   节点属性启用 : 是否等待嵌入式表单消息
+   *   e.data.action是ToolBar的按钮No，你点击的时候可以根据Switch case 执行你自己的逻辑
+  **/
+  window.addEventListener('message', function (e) {
+    document.getElementById('span1').innerHTML = JSON.stringify(e.data) // 作为第一个参数传递给postMessage的数据
+    document.getElementById('span2').innerHTML = e.origin // 发送消息的来源，可以根据origin来确保期望的发送者
+    var parentWin = e.source // 发送消息的window代理对象
+    var data = e.data;
+    debugger;
+    let result
+    console.log('e', e.data);
+    switch (data.action) {
+      case 'Send':
+        debugger;
+        console.log('dada', data);
+        result = Send(e.data);
+        break;
+      case 'Save':
+        console.log('dada', data);
+        result = Save(e.data);
+        break;
+      case 'Delete':
+        console.log('dada', data);
+        result = Delete(e.data)
+        break;
+    }
+    parentWin.postMessage(
+      {
+        msgType: data.msgType,
+        action: data.action,
+        result: result,
+      },
+      e.origin,
+    );
+  });
+
+  function Send(params) {
+    alert('Send');
+    return true;
+  }
+
+  function Save(params) {
+    alert('Save');
+    return true;
+  }
+
+  function Delete(params) {
+    alert('Delete');
+    return true;
+  }
+
+
+
+
+</script>
+
+</html>

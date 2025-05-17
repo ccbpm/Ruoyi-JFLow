@@ -1,0 +1,1 @@
+import{g as i}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const h=t=>{const{VITE_GLOB_API_URL:s}=i();return t.startsWith(s)||t.startsWith("http://")||t.startsWith("https://")||t.startsWith("/#/")};export{h as isHttpLink};

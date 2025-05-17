@@ -1,0 +1,43 @@
+jflow导出ruoyi表 字段对应关系（建议用notepad++打开）
+
+1.用户表  
+   jflow：port_emp    ruoyi：sys_user
+    字段  UserID           user_name
+          No               user_name
+		  Name             nick_name	  
+		  Pass             password
+		  FK_Dept          dept_id
+		  Tel              phonenumber
+		  Email            email
+
+2.部门表
+   jflow:port_dept    ruoyi:sys_dept
+   No                     dept_id
+   Name                   dept_name
+   ParentNo               parent_id
+   Leader                 leader
+   
+
+3.岗位表
+   jflow:port_station   ruoyi:sys_post
+   No                   post_id
+   Name                 post_name
+   idx                  post_sort
+   
+4.人员岗位表
+   jflow:port_deptempstation   ruoyi:sys_user_post
+          FK_Emp                user_id--->(根据FK_EMP从sys_user表获取id)
+          FK_Station            post_id
+5. 部门角色表
+                               ruoyi: sys_role_dept
+                               根据ruoyi角色进行手动分工划分部门id到角色中
+6.用户角色表
+                               ruoyi: sys_user_role
+                               根据ruoyi角色进行手动分工划分员工id到角色中
+7.字段类型修改，涉及关联表都要修改
+            获取部门集合处 代码修改（通过equest判断）
+
+   
+
+ 
+   

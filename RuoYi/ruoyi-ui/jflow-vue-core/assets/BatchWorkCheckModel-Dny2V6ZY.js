@@ -1,0 +1,1 @@
+import{aC as e}from"./entry/index-B5R3Coa4-1746862693206.js";import{_ as o,$ as t}from"./vue-B6GVRDGm.js";const r={};function _(n,a){return t(),o("div")}const c=e(r,[["render",_]]),f=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"}));export{f as _};

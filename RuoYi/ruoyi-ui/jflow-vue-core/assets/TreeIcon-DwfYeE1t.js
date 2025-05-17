@@ -1,0 +1,1 @@
+import{ae as s,l as e}from"./vue-B6GVRDGm.js";import{bl as t}from"./entry/index-B5R3Coa4-1746862693206.js";import"./antd-C8r6Ue4p.js";const n=({icon:r})=>r?s(r)?e(t,{icon:r,class:"mr-1"}):t:null;export{n as TreeIcon};

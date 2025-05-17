@@ -1,0 +1,7 @@
+var f=Object.defineProperty;var y=(r,e,t)=>e in r?f(r,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):r[e]=t;var l=(r,e,t)=>y(r,typeof e!="symbol"?e+"":e,t);var o=(r,e,t)=>new Promise((i,D)=>{var d=a=>{try{n(t.next(a))}catch(u){D(u)}},c=a=>{try{n(t.throw(a))}catch(u){D(u)}},n=a=>a.done?i(a.value):Promise.resolve(a.value).then(d,c);n((t=t.apply(r,e)).next())});import{l as M,U as A,f as m,F as p}from"./entry/index-B5R3Coa4-1746862693206.js";import{a as s}from"./MapExt-DVovzpWn.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";import"./MapAttr-DcWjEeWW.js";import"./Events-D9tOL1Ad.js";import"./SFTable-BpxUt1jb.js";import"./SFDBSrc-DbkqYXE6.js";class q extends M{constructor(t){super("TS.MapExt.GPEReqDays");l(this,"DescTag1",` 
+   #### 说明
+   - 在表单中选择日期计算的终止值字段，比如：请假日期到 
+    `);l(this,"DescDoc",` 
+  #### 说明
+  - 在表单中选择日期计算的起始值字段，比如：请假日期从 
+   `);t&&(this.MyPK=t)}get HisUAC(){const t=new A;return t.IsDelete=!1,t.IsUpdate=!0,t.IsInsert=!1,t}get EnMap(){const t=new m("Sys_MapExt","两个日期之差");return t.AddGroupAttr("基本设置"),t.AddMyPK(),t.AddTBString(s.FK_MapData,null,"表单ID",!1,!1,0,50,200,!0),t.AddDDLSQL(s.Doc,null,"日期从",p.SQLOfGPEReqDays,!0,null,!0),t.AddDDLSQL(s.Tag1,null,"到",p.SQLOfGPEReqDays,!0,null,!0),t.AddDDLSQL(s.Tag,null,"节假日",p.SQLOfReqDaysHolidays,!0,null,!0),this._enMap=t,this._enMap}beforeInsert(){return o(this,null,function*(){return this.FK_MapData="ND1Rpt",!0})}beforeUpdateInsertAction(){return o(this,null,function*(){return!0})}}export{q as GPEReqDays};

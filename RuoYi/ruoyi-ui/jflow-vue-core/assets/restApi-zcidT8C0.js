@@ -1,0 +1,1 @@
+import{s as o}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";function p(r){return o.get("/WF/API/Flow_StartAsWorkID",{params:{workIDHistory:r}})}function a(r,t,e="未填写移交原因",s){return o.post(`/WF/API/Node_Shift?workID=${r}&toEmpNo=${t}&msg=${e}&token=${s}`)}export{p as Flow_StartAsWorkID,a as TransferWork};

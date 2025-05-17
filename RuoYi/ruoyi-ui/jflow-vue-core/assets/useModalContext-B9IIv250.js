@@ -1,0 +1,1 @@
+import{ax as e,ay as n}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const t=Symbol();function x(o){return n(o,t)}function c(){return e(t)}export{x as createModalContext,c as useModalContext};

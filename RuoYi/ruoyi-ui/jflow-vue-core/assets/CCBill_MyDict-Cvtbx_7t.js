@@ -1,0 +1,1 @@
+var u=(s,D,r)=>new Promise((t,o)=>{var n=e=>{try{f(r.next(e))}catch(a){o(a)}},_=e=>{try{f(r.throw(e))}catch(a){o(a)}},f=e=>e.done?t(e.value):Promise.resolve(e.value).then(n,_);f((r=r.apply(s,D)).next())});function l(s){return{beforeSave:(t,o,n)=>u(this,null,function*(){return!0}),beforeDelete:(t,o,n)=>u(this,null,function*(){return!0})}}export{l as userCCBillSelfLoader};

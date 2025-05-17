@@ -1,0 +1,1 @@
+var a=Object.defineProperty;var i=(e,t,p)=>t in e?a(e,t,{enumerable:!0,configurable:!0,writable:!0,value:p}):e[t]=p;var o=(e,t,p)=>i(e,typeof t!="symbol"?t+"":t,p);class s{}o(s,"Port_DeptLazily","Port_DeptLazily"),o(s,"Port_GetEmpsByDeptNo","Port_GetEmpsByDeptNo");export{s as SQL_Port};

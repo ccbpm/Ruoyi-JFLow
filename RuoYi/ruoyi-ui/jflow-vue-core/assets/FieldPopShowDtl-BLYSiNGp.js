@@ -1,0 +1,5 @@
+var p=Object.defineProperty;var o=(r,e,t)=>e in r?p(r,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):r[e]=t;var a=(r,e,t)=>o(r,typeof e!="symbol"?e+"":e,t);import{l as i,U as n,f as d}from"./entry/index-B5R3Coa4-1746862693206.js";import{a as s}from"./MapExt-DVovzpWn.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";import"./MapAttr-DcWjEeWW.js";import"./Events-D9tOL1Ad.js";import"./SFTable-BpxUt1jb.js";import"./SFDBSrc-DbkqYXE6.js";class f extends i{constructor(t){super("TS.MapExt.FieldPopShowDtl");a(this,"DescTag1",` 
+   #### 说明
+   - 请输入SQL表达式，
+   - 表达式里支持@字段名变量.
+    `);t&&(this.MyPK=t)}get HisUAC(){const t=new n;return t.IsDelete=!0,t.IsUpdate=!0,t.IsInsert=!0,t}get EnMap(){const t=new d("Sys_MapExt","Pop数据撰取");return t.AddGroupAttr("基本设置"),t.AddMyPK(),t.AddTBString(s.FK_MapData,null,"FrmID",!1,!1,0,50,200,!0,this.DescDoc),t.AddTBStringDoc(s.Doc,null,"数据源SQL",!0,!1,!0,this.DescTag1),t.AddTBString(s.Tag1,"70%","窗体宽度px",!0,!1,0,50,200),t.AddTBString(s.Tag2,"100%","窗体高度px",!0,!1,0,50,200),this._enMap=t,this._enMap}}export{f as FieldPopShowDtl};

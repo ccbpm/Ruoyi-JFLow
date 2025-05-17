@@ -1,0 +1,1 @@
+var m=(o,s,e)=>new Promise((c,r)=>{var l=t=>{try{a(e.next(t))}catch(n){r(n)}},y=t=>{try{a(e.throw(t))}catch(n){r(n)}},a=t=>t.done?c(t.value):Promise.resolve(t.value).then(l,y);a((e=e.apply(o,s)).next())});class d{constructor(){}static FrmBodyItemChange(s,e,c,r,l){return m(this,null,function*(){return null})}}export{d as FrmBodyItemChange};

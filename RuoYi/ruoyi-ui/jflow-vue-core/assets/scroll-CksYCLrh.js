@@ -1,0 +1,1 @@
+import{a3 as o}from"./vue-B6GVRDGm.js";const l=o({id:"app-scroll-keep",state:()=>({scrollMap:new Map}),getters:{getScrollMap(){return this.scrollMap}},actions:{setScrollInfo(e,t){this.scrollMap.set(e,t)}}});export{l as useScrollKeepStore};

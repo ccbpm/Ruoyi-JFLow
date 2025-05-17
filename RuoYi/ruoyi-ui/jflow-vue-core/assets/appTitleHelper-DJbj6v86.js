@@ -1,0 +1,1 @@
+import{g as t}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";function g(e,p="驰骋"){if(typeof e!="string")return"";const{VITE_GLOB_SX_TITLE:r}=t();return e.replace(new RegExp(p,"g"),r)}export{g as appTitleHelper};

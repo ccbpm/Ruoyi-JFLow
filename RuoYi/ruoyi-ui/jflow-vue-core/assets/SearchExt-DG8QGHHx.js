@@ -1,0 +1,1 @@
+var o=(a,l,c)=>new Promise((r,e)=>{var _=t=>{try{n(c.next(t))}catch(s){e(s)}},u=t=>{try{n(c.throw(t))}catch(s){e(s)}},n=t=>t.done?r(t.value):Promise.resolve(t.value).then(_,u);n((c=c.apply(a,l)).next())});class i{constructor(){}static BtnClick(l,c,r,e){return o(this,null,function*(){return null})}}export{i as SearchExt};

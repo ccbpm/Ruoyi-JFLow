@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/QingJia-BqAt40SM.js","assets/antd-C8r6Ue4p.js","assets/vue-B6GVRDGm.js"])))=>i.map(i=>d[i]);
+import{_ as i}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const o={path:"/QingJia",name:"QingJia",component:()=>i(()=>import("./QingJia-BqAt40SM.js"),__vite__mapDeps([0,1,2])),meta:{title:"嵌入式表单QingJia",hideMenu:!0}};export{o as default};

@@ -1,0 +1,1 @@
+import{aC as t}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const r={name:"Batch.vue"};function e(o,a,c,n,s,p){return null}const m=t(r,[["render",e]]);export{m as default};

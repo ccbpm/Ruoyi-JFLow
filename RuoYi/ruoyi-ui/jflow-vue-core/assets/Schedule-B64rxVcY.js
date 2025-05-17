@@ -1,0 +1,1 @@
+import{aC as e}from"./entry/index-B5R3Coa4-1746862693206.js";import{_ as r,$ as c}from"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const o={};function t(n,a){return c(),r("p",null,"开发中")}const l=e(o,[["render",t]]);export{l as default};

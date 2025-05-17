@@ -1,0 +1,1 @@
+import{d as e,_ as t,$ as o,a0 as s}from"./vue-B6GVRDGm.js";const n={style:{display:"flex","justify-content":"center","align-items":"center","margin-top":"10px"}},a=s("div",{class:"xxx"}," 说明: 1. 该文件表达了如何调用通用Url的页面功能方法？ DoWhat=Port. ",-1),c=[a],d=e({__name:"GotoUrl",setup(r){return(_,i)=>(o(),t("div",n,c))}});export{d as default};

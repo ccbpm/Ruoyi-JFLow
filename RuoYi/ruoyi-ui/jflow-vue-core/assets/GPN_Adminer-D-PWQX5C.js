@@ -1,0 +1,6 @@
+var N=Object.defineProperty;var S=(r,t,e)=>t in r?N(r,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):r[t]=e;var l=(r,t,e)=>S(r,typeof t!="symbol"?t+"":t,e);var m=(r,t,e)=>new Promise((c,a)=>{var i=s=>{try{o(e.next(s))}catch(n){a(n)}},p=s=>{try{o(e.throw(s))}catch(n){a(n)}},o=s=>s.done?c(s.value):Promise.resolve(s.value).then(i,p);o((e=e.apply(r,t)).next())});import{P as R,F as P,B,G,m as h}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";class D extends R{constructor(){super("GPN_Adminer");l(this,"NewDept",`
+  #### 帮助
+   - ccbpm支持一人多部门,每个部门支持多岗位.
+  #### 详细说明
+   - 组织结构可以与现在的系统集成, 集成信息: https://doc.ccbpm.cn
+`);this.PageTitle="设置二级管理员"}Init(){const e=this.RequestVal("RefPKVal");this.SelectItemsByTreeEns("Emp","选择管理员",this.HelpUn,!1,P.SQLOfSelectAdminer(e),e,P.SQLOfAdminerEmpByDept,"")}GenerSorts(){return m(this,null,function*(){return Promise.resolve([])})}Save_TextBox_X(e,c,a,i,p){return m(this,null,function*(){const o=this.RequestVal("RefPKVal"),s=a,n=i,d=new B("BP.WF.Port.Dept",o);yield d.RetrieveFromDBSources();const u=yield d.DoMethodReturnString("DoSetAdminer",s,n);return new G(h.CloseAndReload,u)})}}export{D as GPN_Adminer};

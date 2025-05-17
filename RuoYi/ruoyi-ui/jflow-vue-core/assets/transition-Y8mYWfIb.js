@@ -1,0 +1,1 @@
+function m({route:n,openCache:a,cacheTabs:t,enableTransition:o,def:s}){if(!o)return;const d=t.includes(n.name),e="fade-slide";let i=e;return a&&(i=d&&n.meta.loaded?e:void 0),i||n.meta.transitionName||s}export{m as getTransitionName};

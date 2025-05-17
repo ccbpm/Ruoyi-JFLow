@@ -1,0 +1,1 @@
+import{y as f}from"./entry/index-B5R3Coa4-1746862693206.js";import{u as m}from"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";function w(o,e){function i(n,t){const{striped:u,rowClassName:s}=m(o),r=[];return u&&r.push((t||0)%2===1?`${e}-row__striped`:""),s&&f(s)&&r.push(s(n,t)),r.filter(a=>!!a).join(" ")}return{getRowClassName:i}}export{w as useTableStyle};

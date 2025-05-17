@@ -1,0 +1,6866 @@
+[
+  {
+    "classId": "TS.CG.CGBudget",
+    "tableName": "Purchase_Budget",
+    "desc": "预算",
+    "filePath": "src/App/CaiGou/CGBudget.ts",
+    "className": "CGBudget",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CG.CGDtl",
+    "tableName": "ND701CaiGouQingDan",
+    "desc": "采购清单",
+    "filePath": "src/App/CaiGou/CGDtl.ts",
+    "className": "CGDtl",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CG.CGDtlOfFangAn",
+    "tableName": "Purchase_CGDtl",
+    "desc": "采购清单",
+    "filePath": "src/App/CaiGou/CGDtlOfFangAn.ts",
+    "className": "CGDtlOfFangAn",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CG.CGIntal",
+    "tableName": "Purchase_Intal",
+    "desc": "合同分期支付",
+    "filePath": "src/App/CaiGou/CGIntal.ts",
+    "className": "CGIntal",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CG.CGPlan",
+    "tableName": "Purchase_Plan",
+    "desc": "采购计划",
+    "filePath": "src/App/CaiGou/CGPlan.ts",
+    "className": "CGPlan",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CG.ND7Rpt",
+    "tableName": "ND7Rpt",
+    "desc": "项目管理",
+    "filePath": "src/App/CaiGou/ND7Rpt.ts",
+    "className": "ND7Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CG.ND8Rpt",
+    "tableName": "ND8Rpt",
+    "desc": "项目管理",
+    "filePath": "src/App/CaiGou/ND8Rpt.ts",
+    "className": "ND8Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CG.PackageEn",
+    "tableName": "ND701BaoZuXinXi",
+    "desc": "包组信息",
+    "filePath": "src/App/CaiGou/PackageEn.ts",
+    "className": "PackageEn",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CG.Project",
+    "tableName": "Purchase_project",
+    "desc": "采购项目",
+    "filePath": "src/App/CaiGou/Project.ts",
+    "className": "Project",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.MeiTi",
+    "tableName": "AD_MeiTi",
+    "desc": "媒体",
+    "filePath": "src/App/AD/MeiTi.ts",
+    "className": "MeiTi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.ND5RptBZY",
+    "tableName": "ND5Rpt",
+    "desc": "违规广告认定与处理",
+    "filePath": "src/App/AD/ND5RptBZY.ts",
+    "className": "ND5RptBZY",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.AD.XS",
+    "tableName": "AD_XS",
+    "desc": "线索",
+    "filePath": "src/App/AD/XS.ts",
+    "className": "XS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.XSQuXian",
+    "tableName": "AD_XS",
+    "desc": "线索",
+    "filePath": "src/App/AD/XSQuXian.ts",
+    "className": "XSQuXian",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.XSShiJu",
+    "tableName": "AD_XS",
+    "desc": "线索",
+    "filePath": "src/App/AD/XSShiJu.ts",
+    "className": "XSShiJu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.XSXiangZhen",
+    "tableName": "AD_XS",
+    "desc": "线索",
+    "filePath": "src/App/AD/XSXiangZhen.ts",
+    "className": "XSXiangZhen",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CRM.Asker",
+    "tableName": "CRM_Asker",
+    "desc": "调查",
+    "filePath": "src/App/CRM/Asker.ts",
+    "className": "Asker",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CRM.CType",
+    "tableName": "Port_CType",
+    "desc": "客户类型",
+    "filePath": "src/App/CRM/CType.ts",
+    "className": "CType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CRM.Seed",
+    "tableName": "CRM_Seed",
+    "desc": "线索",
+    "filePath": "src/App/CRM/Seed.ts",
+    "className": "Seed",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CRM.SeedComplete",
+    "tableName": "CRM_Seed",
+    "desc": "线索完成",
+    "filePath": "src/App/CRM/SeedComplete.ts",
+    "className": "SeedComplete",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CRM.Track",
+    "tableName": "CRM_Track",
+    "desc": "跟踪日志",
+    "filePath": "src/App/CRM/Track.ts",
+    "className": "Track",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Demo.BanJi",
+    "tableName": "Demo_BanJi",
+    "desc": "班级",
+    "filePath": "src/App/Demo/BanJi.ts",
+    "className": "BanJi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.City",
+    "tableName": "Demo_City",
+    "desc": "城市",
+    "filePath": "src/App/Demo/City.ts",
+    "className": "City",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.EnNoNameDemo",
+    "tableName": "En_XueShengTaiZhangCeSh",
+    "desc": "低代码多选测试",
+    "filePath": "src/App/Demo/EnNoNameDemo.ts",
+    "className": "EnNoNameDemo",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.Honor",
+    "tableName": "Demo_Honor",
+    "desc": "荣誉",
+    "filePath": "src/App/Demo/Honor.ts",
+    "className": "Honor",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Demo.KeMu",
+    "tableName": "Demo_KeMu",
+    "desc": "科目",
+    "filePath": "src/App/Demo/KeMu.ts",
+    "className": "KeMu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.Member",
+    "tableName": "Demo_Member",
+    "desc": "成员",
+    "filePath": "src/App/Demo/Member.ts",
+    "className": "Member",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Demo.Resume",
+    "tableName": "Demo_Resume",
+    "desc": "简历",
+    "filePath": "src/App/Demo/Resume.ts",
+    "className": "Resume",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Demo.ShengFen",
+    "tableName": "Demo_ShengFen",
+    "desc": "省份",
+    "filePath": "src/App/Demo/ShengFen.ts",
+    "className": "ShengFen",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.Student",
+    "tableName": "Demo_Student",
+    "desc": "学生",
+    "filePath": "src/App/Demo/Student.ts",
+    "className": "Student",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.StudentExt",
+    "tableName": "Demo_Student",
+    "desc": "学生Ext",
+    "filePath": "src/App/Demo/StudentExt.ts",
+    "className": "StudentExt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.StudentKeMu",
+    "tableName": "Demo_StudentKeMu",
+    "desc": "学生科目",
+    "filePath": "src/App/Demo/StudentKeMu.ts",
+    "className": "StudentKeMu",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Demo.Bill_ChuKuShan111",
+    "tableName": "Bill_ChuKuShan111",
+    "desc": "出库单111",
+    "filePath": "src/App/ERP/OrderBill.ts",
+    "className": "Bill_ChuKuShan111",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.ERP.OrderBillDtl",
+    "tableName": "ERP_OrderBillDtl",
+    "desc": "订单详情",
+    "filePath": "src/App/ERP/OrderBillDtl.ts",
+    "className": "OrderBillDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.ERP.ShengQu",
+    "tableName": "ERP_ShengQu",
+    "desc": "省区",
+    "filePath": "src/App/ERP/ShengQu.ts",
+    "className": "ShengQu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PA.EvaDetail",
+    "tableName": "EvaDetail",
+    "desc": "考评子表",
+    "filePath": "src/App/PA/EvaDetail.ts",
+    "className": "EvaDetail",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PA.EvaDim",
+    "tableName": "dict_eva_dim",
+    "desc": "考评维度",
+    "filePath": "src/App/PA/EvaDim.ts",
+    "className": "EvaDim",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PA.EvaInd",
+    "tableName": "dict_eva_ind",
+    "desc": "考评内容",
+    "filePath": "src/App/PA/EvaInd.ts",
+    "className": "EvaInd",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PA.EvaMain",
+    "tableName": "eva_main",
+    "desc": "绩效考评表",
+    "filePath": "src/App/PA/EvaMain.ts",
+    "className": "EvaMain",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CRM.Visitor",
+    "tableName": "CRM_Visitor",
+    "desc": "来宾",
+    "filePath": "src/App/Questionnaire/Visitor.ts",
+    "className": "Visitor",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.bzqdzdj",
+    "tableName": "Prj_bzqdzdj",
+    "desc": "工程指导价",
+    "filePath": "src/App/YNJT/Hetong.ts",
+    "className": "bzqdzdj",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.MyRpt",
+    "tableName": "Demo_MyRpt",
+    "desc": "我的报表",
+    "filePath": "src/App/YNJT/MyRpt.ts",
+    "className": "MyRpt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.AdminGroup.Org",
+    "tableName": "Port_Org",
+    "desc": " 独立组织",
+    "filePath": "src/App/YNJT/Org.ts",
+    "className": "Org",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.Port.Dept",
+    "tableName": "Port_Dept",
+    "desc": "部门",
+    "filePath": "src/bp/port/Dept.ts",
+    "className": "Dept",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.Port.DeptEmp",
+    "tableName": "Port_DeptEmp",
+    "desc": "用户部门",
+    "filePath": "src/bp/port/DeptEmp.ts",
+    "className": "DeptEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.DeptEmpStation",
+    "tableName": "Port_DeptEmpStation",
+    "desc": "用户部门岗位",
+    "filePath": "src/bp/port/DeptEmpStation.ts",
+    "className": "DeptEmpStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.Emp",
+    "tableName": "Emp",
+    "desc": "",
+    "filePath": "src/bp/port/Emp.ts",
+    "className": "Emp",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.StationType",
+    "tableName": "Port_StationType",
+    "desc": "角色类型",
+    "filePath": "src/bp/port/StationType.ts",
+    "className": "StationType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.Team",
+    "tableName": "Port_Team",
+    "desc": "项目组",
+    "filePath": "src/bp/port/Team.ts",
+    "className": "Team",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.TeamEmp",
+    "tableName": "Port_TeamEmp",
+    "desc": "用户组",
+    "filePath": "src/bp/port/TeamEmp.ts",
+    "className": "TeamEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.TeamEmpStation",
+    "tableName": "Port_TeamEmpStation",
+    "desc": "用户组岗位",
+    "filePath": "src/bp/port/TeamEmpStation.ts",
+    "className": "TeamEmpStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.TeamType",
+    "tableName": "Port_TeamType",
+    "desc": "组类型",
+    "filePath": "src/bp/port/TeamType.ts",
+    "className": "TeamType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.User.EnCfg",
+    "tableName": "Sys_EnCfg",
+    "desc": "组件展现设置",
+    "filePath": "src/bp/sys/EnCfg.ts",
+    "className": "EnCfg",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.EnSearchCol",
+    "tableName": "Sys_MapExt",
+    "desc": "字段列显示",
+    "filePath": "src/bp/sys/EnSearchCol.ts",
+    "className": "EnSearchCol",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.TreeEnsCfg",
+    "tableName": "Sys_EnCfg",
+    "desc": "组件展现设置",
+    "filePath": "src/bp/sys/TreeEnsCfg.ts",
+    "className": "TreeEnsCfg",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Self.UserLog",
+    "tableName": "Sys_UserLogT",
+    "desc": "用户日志",
+    "filePath": "src/bp/sys/UserLog.ts",
+    "className": "UserLog",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Self.UserRegedit",
+    "tableName": "Sys_UserRegedit",
+    "desc": "用户注册表",
+    "filePath": "src/bp/sys/UserRegedit.ts",
+    "className": "UserRegedit",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.AskSettingOne",
+    "tableName": "Sys_MapData",
+    "desc": "问卷",
+    "filePath": "src/CCFast/CCBill/AskSettingOne.ts",
+    "className": "AskSettingOne",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.DictSettingOne",
+    "tableName": "Sys_MapData",
+    "desc": "实体",
+    "filePath": "src/CCFast/CCBill/DictSettingOne.ts",
+    "className": "DictSettingOne",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.EntityNoNameSettingOne",
+    "tableName": "Sys_MapData",
+    "desc": "实体",
+    "filePath": "src/CCFast/CCBill/EntityNoNameSettingOne.ts",
+    "className": "EntityNoNameSettingOne",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmAsk",
+    "tableName": "Sys_MapData",
+    "desc": "问卷表单",
+    "filePath": "src/CCFast/CCBill/FrmAsk.ts",
+    "className": "FrmAsk",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmBill",
+    "tableName": "Sys_MapData",
+    "desc": "单据表单",
+    "filePath": "src/CCFast/CCBill/FrmBill.ts",
+    "className": "FrmBill",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmDict",
+    "tableName": "Sys_MapData",
+    "desc": "实体表单",
+    "filePath": "src/CCFast/CCBill/FrmDict.ts",
+    "className": "FrmDict",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmDictBtn",
+    "tableName": "Sys_MapData",
+    "desc": "常规按钮",
+    "filePath": "src/CCFast/CCBill/FrmDictBtn.ts",
+    "className": "FrmDictBtn",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmEntityNoName",
+    "tableName": "Sys_MapData",
+    "desc": "实体表单",
+    "filePath": "src/CCFast/CCBill/FrmEntityNoName.ts",
+    "className": "FrmEntityNoName",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmEntityNoNameBtn",
+    "tableName": "Sys_MapData",
+    "desc": "常规按钮",
+    "filePath": "src/CCFast/CCBill/FrmEntityNoNameBtn.ts",
+    "className": "FrmEntityNoNameBtn",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmTrack",
+    "tableName": "Frm_Track",
+    "desc": "表单轨迹表",
+    "filePath": "src/CCFast/CCBill/FrmTrack.ts",
+    "className": "FrmTrack",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.GenerBill",
+    "tableName": "Frm_GenerBill",
+    "desc": "单据控制表",
+    "filePath": "src/CCFast/CCBill/GenerBill.ts",
+    "className": "GenerBill",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.CCBill.GenerBillExt",
+    "tableName": "Frm_GenerBill",
+    "desc": "单据查询",
+    "filePath": "src/CCFast/CCBill/GenerBillExt.ts",
+    "className": "GenerBillExt",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.CCBill.GenerBillSelfCheck",
+    "tableName": "Frm_GenerBill",
+    "desc": "自定义审核",
+    "filePath": "src/CCFast/CCBill/GenerBillSelfCheck.ts",
+    "className": "GenerBillSelfCheck",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.GenerWorker",
+    "tableName": "Frm_GenerWorker",
+    "desc": "审核人员",
+    "filePath": "src/CCFast/CCBill/GenerWorker.ts",
+    "className": "GenerWorker",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.Module",
+    "tableName": "GPM_Module",
+    "desc": "模块",
+    "filePath": "src/CCFast/GPM/Module.ts",
+    "className": "Module",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.ModuleLang",
+    "tableName": "GPM_Module",
+    "desc": "模块",
+    "filePath": "src/CCFast/GPM/ModuleLang.ts",
+    "className": "ModuleLang",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.MySystem",
+    "tableName": "GPM_System",
+    "desc": "系统",
+    "filePath": "src/CCFast/GPM/MySystem.ts",
+    "className": "MySystem",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.MySystemLang",
+    "tableName": "GPM_System",
+    "desc": "系统",
+    "filePath": "src/CCFast/GPM/MySystemLang.ts",
+    "className": "MySystemLang",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.SystemAlone",
+    "tableName": "GPM_System",
+    "desc": "独立系统",
+    "filePath": "src/CCFast/GPM/SystemAlone.ts",
+    "className": "SystemAlone",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.SystemPortal",
+    "tableName": "GPM_System",
+    "desc": "门户",
+    "filePath": "src/CCFast/GPM/SystemPortal.ts",
+    "className": "SystemPortal",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartChina",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "中国地图",
+    "filePath": "src/CCFast/Windows/ChartChina.ts",
+    "className": "ChartChina",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartLine",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "折线图",
+    "filePath": "src/CCFast/Windows/ChartLine.ts",
+    "className": "ChartLine",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartLineAdv",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "折线图",
+    "filePath": "src/CCFast/Windows/ChartLineAdv.ts",
+    "className": "ChartLineAdv",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartPie",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "饼图",
+    "filePath": "src/CCFast/Windows/ChartPie.ts",
+    "className": "ChartPie",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartRadar",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "雷达图",
+    "filePath": "src/CCFast/Windows/ChartRadar.ts",
+    "className": "ChartRadar",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartRate",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "百分比扇形图",
+    "filePath": "src/CCFast/Windows/ChartRate.ts",
+    "className": "ChartRate",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartRing",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "环形图",
+    "filePath": "src/CCFast/Windows/ChartRing.ts",
+    "className": "ChartRing",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartRose",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "玫瑰图",
+    "filePath": "src/CCFast/Windows/ChartRose.ts",
+    "className": "ChartRose",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.ChartZZT",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "柱状图",
+    "filePath": "src/CCFast/Windows/ChartZZT.ts",
+    "className": "ChartZZT",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.Dtl",
+    "tableName": "GPM_WindowTemplateDtl",
+    "desc": "Dtl变量信息",
+    "filePath": "src/CCFast/Windows/Dtl.ts",
+    "className": "Dtl",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.Html",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "Html信息块",
+    "filePath": "src/CCFast/Windows/Html.ts",
+    "className": "Html",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.HtmlVar",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "HtmlVar信息块",
+    "filePath": "src/CCFast/Windows/HtmlVar.ts",
+    "className": "HtmlVar",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.HtmlVarDtl",
+    "tableName": "GPM_WindowTemplateDtl",
+    "desc": "Dtl变量信息",
+    "filePath": "src/CCFast/Windows/HtmlVarDtl.ts",
+    "className": "HtmlVarDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCFast.Windows.iFrame",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "iFrame框架信息块",
+    "filePath": "src/CCFast/Windows/iFrame.ts",
+    "className": "iFrame",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.Info",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "通知公告",
+    "filePath": "src/CCFast/Windows/Info.ts",
+    "className": "Info",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.SSO",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "登陆系统",
+    "filePath": "src/CCFast/Windows/SSO.ts",
+    "className": "SSO",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.SSODtl",
+    "tableName": "GPM_WindowTemplateDtl",
+    "desc": "Dtl变量信息",
+    "filePath": "src/CCFast/Windows/SSODtl.ts",
+    "className": "SSODtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCFast.Windows.Tab",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "Tab标签页",
+    "filePath": "src/CCFast/Windows/Tab.ts",
+    "className": "Tab",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.TabDtl",
+    "tableName": "GPM_WindowTemplateDtl",
+    "desc": "Dtl变量信息",
+    "filePath": "src/CCFast/Windows/TabDtl.ts",
+    "className": "TabDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCFast.Windows.WinTable",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "表格",
+    "filePath": "src/CCFast/Windows/WinTable.ts",
+    "className": "WinTable",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.WinTable2",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "二维表格",
+    "filePath": "src/CCFast/Windows/WinTable2.ts",
+    "className": "WinTable2",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Windows.YZWindow",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "内置窗口",
+    "filePath": "src/CCFast/Windows/YZWindow.ts",
+    "className": "YZWindow",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.Setting",
+    "tableName": "Port_Emp",
+    "desc": "系统设置",
+    "filePath": "src/WF/Admin/Setting.ts",
+    "className": "Setting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Admin.Flow",
+    "tableName": "WF_Flow",
+    "desc": "流程模版",
+    "filePath": "src/WF/TSClass/Flow.ts",
+    "className": "Flow",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TSClass.FlowOneSetting",
+    "tableName": "WF_Flow",
+    "desc": "流程",
+    "filePath": "src/WF/TSClass/FlowOneSetting.ts",
+    "className": "FlowOneSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Template.NodeToolbar",
+    "tableName": "WF_Node",
+    "desc": "节点表单组件",
+    "filePath": "src/WF/TSClass/FrmNodeComponent.ts",
+    "className": "NodeToolbar",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.WF.Template.FrmSubFlow",
+    "tableName": "WF_Node",
+    "desc": "父子流程",
+    "filePath": "src/WF/TSClass/FrmSubFlow.ts",
+    "className": "FrmSubFlow",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Admin.Node",
+    "tableName": "WF_Node",
+    "desc": "节点",
+    "filePath": "src/WF/TSClass/Node.ts",
+    "className": "Node",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Template.SQLTemplate",
+    "tableName": "WF_SQLTemplate",
+    "desc": "SQL模板",
+    "filePath": "src/WF/TSClass/SQLTemplate.ts",
+    "className": "SQLTemplate",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Todolist",
+    "tableName": "WF_Todolist",
+    "desc": "待办",
+    "filePath": "src/WF/TSClass/Todolist.ts",
+    "className": "Todolist",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.HuiQian",
+    "tableName": "WF_WorkOpt",
+    "desc": "会签",
+    "filePath": "src/WF/WorkOpt/HuiQian.ts",
+    "className": "HuiQian",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.HungupList",
+    "tableName": "WF_WorkOpt",
+    "desc": "挂起延迟",
+    "filePath": "src/WF/WorkOpt/HungupList.ts",
+    "className": "HungupList",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.Shift",
+    "tableName": "WF_WorkOpt",
+    "desc": "移交",
+    "filePath": "src/WF/WorkOpt/Shift.ts",
+    "className": "Shift",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.WorkOpt",
+    "tableName": "WF_WorkOpt",
+    "desc": "工作处理器",
+    "filePath": "src/WF/WorkOpt/WorkOpt.ts",
+    "className": "WorkOpt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AD.DiQu",
+    "tableName": "CN_DiQu",
+    "desc": "地区",
+    "filePath": "src/App/AD/Dict/DiQu.ts",
+    "className": "DiQu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.QuXian",
+    "tableName": "CN_QuXian",
+    "desc": "区县",
+    "filePath": "src/App/AD/Dict/QuXian.ts",
+    "className": "QuXian",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.SPLX",
+    "tableName": "AD_SPLX",
+    "desc": "商品类型",
+    "filePath": "src/App/AD/Dict/SPLX.ts",
+    "className": "SPLX",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.WeiGui",
+    "tableName": "AD_WeiGui",
+    "desc": "违规条款",
+    "filePath": "src/App/AD/Dict/WeiGui.ts",
+    "className": "WeiGui",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AD.XiangZhen",
+    "tableName": "CN_XiangZhen",
+    "desc": "乡镇",
+    "filePath": "src/App/AD/Dict/XiangZhen.ts",
+    "className": "XiangZhen",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCInfo.Info",
+    "tableName": "OA_Info",
+    "desc": "信息",
+    "filePath": "src/App/CCOA/CCInfo/Info.ts",
+    "className": "Info",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCInfo.InfoType",
+    "tableName": "OA_InfoType",
+    "desc": "类型",
+    "filePath": "src/App/CCOA/CCInfo/InfoType.ts",
+    "className": "InfoType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCInfo.KeyWord",
+    "tableName": "OA_KeyWord",
+    "desc": "关键字",
+    "filePath": "src/App/CCOA/CCInfo/KeyWord.ts",
+    "className": "KeyWord",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCInfo.KeyWordType",
+    "tableName": "OA_KeyWordType",
+    "desc": "关键字类型",
+    "filePath": "src/App/CCOA/CCInfo/KeyWordType.ts",
+    "className": "KeyWordType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCBBS.BBS",
+    "tableName": "OA_BBS",
+    "desc": "类型",
+    "filePath": "src/App/CCOA/CCBBS/BBS.ts",
+    "className": "BBS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCBBS.BBSExt",
+    "tableName": "OA_BBS",
+    "desc": "信息",
+    "filePath": "src/App/CCOA/CCBBS/BBSExt.ts",
+    "className": "BBSExt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.CCBBS.BBSType",
+    "tableName": "OA_BBSType",
+    "desc": "类型",
+    "filePath": "src/App/CCOA/CCBBS/BBSType.ts",
+    "className": "BBSType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.Notepad",
+    "tableName": "OA_Notepad",
+    "desc": "记事本",
+    "filePath": "src/App/CCOA/Notepad/Notepad.ts",
+    "className": "Notepad",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCOA.KnowledgeManagement.KMDtl",
+    "tableName": "OA_KMDtl",
+    "desc": "知识点",
+    "filePath": "src/App/CCOA/KnowledgeManagement/KMDtl.ts",
+    "className": "KMDtl",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CCOA.KnowledgeManagement.KMTree",
+    "tableName": "OA_KMTree",
+    "desc": "知识树",
+    "filePath": "src/App/CCOA/KnowledgeManagement/KMTree.ts",
+    "className": "KMTree",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.CCOA.KnowledgeManagement.Knowledge",
+    "tableName": "OA_Knowledge",
+    "desc": "知识树",
+    "filePath": "src/App/CCOA/KnowledgeManagement/Knowledge.ts",
+    "className": "Knowledge",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.Schedule",
+    "tableName": "OA_Schedule",
+    "desc": "日程",
+    "filePath": "src/App/CCOA/Schedule/Schedule.ts",
+    "className": "Schedule",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.Task",
+    "tableName": "OA_Task",
+    "desc": "任务",
+    "filePath": "src/App/CCOA/Task/Task.ts",
+    "className": "Task",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCOA.WorkLog.WorkChecker",
+    "tableName": "OA_WorkChecker",
+    "desc": "日志审核",
+    "filePath": "src/App/CCOA/WorkLog/WorkChecker.ts",
+    "className": "WorkChecker",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCOA.WorkLog.WorkRec",
+    "tableName": "OA_WorkRec",
+    "desc": "工作日志",
+    "filePath": "src/App/CCOA/WorkLog/WorkRec.ts",
+    "className": "WorkRec",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCOA.WorkLog.WorkRecDtl",
+    "tableName": "OA_WorkRecDtl",
+    "desc": "工作内容",
+    "filePath": "src/App/CCOA/WorkLog/WorkRecDtl.ts",
+    "className": "WorkRecDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCOA.WorkLog.WorkShare",
+    "tableName": "OA_WorkShare",
+    "desc": "日志共享",
+    "filePath": "src/App/CCOA/WorkLog/WorkShare.ts",
+    "className": "WorkShare",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.HRDept",
+    "tableName": "Demo_HRDept",
+    "desc": "部门",
+    "filePath": "src/App/Demo/HR/HRDept.ts",
+    "className": "HRDept",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.Demo.HREmp",
+    "tableName": "Demo_HREmp",
+    "desc": "员工",
+    "filePath": "src/App/Demo/HR/HREmp.ts",
+    "className": "HREmp",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.Sort1",
+    "tableName": "Demo_Sort1",
+    "desc": "考核大类",
+    "filePath": "src/App/Demo/Kaohe/Sort1.ts",
+    "className": "Sort1",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.Sort2",
+    "tableName": "Demo_Sort2",
+    "desc": "考核小类",
+    "filePath": "src/App/Demo/Kaohe/Sort2.ts",
+    "className": "Sort2",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.MES.Sort",
+    "tableName": "MES_Sort",
+    "desc": "类型",
+    "filePath": "src/App/ERP/Dict/Sort.ts",
+    "className": "Sort",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.CertType",
+    "tableName": "CD_CertType",
+    "desc": "证件类型",
+    "filePath": "src/App/HR/Dic/CertType.ts",
+    "className": "CertType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.City",
+    "tableName": "CD_City",
+    "desc": "城市",
+    "filePath": "src/App/HR/Dic/City.ts",
+    "className": "City",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.ConChangeType",
+    "tableName": "CD_ConChangeType",
+    "desc": "合同变更类型",
+    "filePath": "src/App/HR/Dic/ConChangeType.ts",
+    "className": "ConChangeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.ShengFen",
+    "tableName": "CD_ShengFen",
+    "desc": "省份",
+    "filePath": "src/App/HR/Dic/ShengFen.ts",
+    "className": "ShengFen",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Empcertificate",
+    "tableName": "Emp_certificate",
+    "desc": "证件管理",
+    "filePath": "src/App/HR/Employee/Empcertificate.ts",
+    "className": "Empcertificate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpContract",
+    "tableName": "Emp_Contract",
+    "desc": "合同管理",
+    "filePath": "src/App/HR/Employee/EmpContract.ts",
+    "className": "EmpContract",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpContractExt",
+    "tableName": "Emp_Contract",
+    "desc": "合同管理",
+    "filePath": "src/App/HR/Employee/EmpContractExt.ts",
+    "className": "EmpContractExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpEducation",
+    "tableName": "Emp_Education",
+    "desc": "教育经历",
+    "filePath": "src/App/HR/Employee/EmpEducation.ts",
+    "className": "EmpEducation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpEmergency",
+    "tableName": "Emp_Emergency",
+    "desc": "紧急联系人",
+    "filePath": "src/App/HR/Employee/EmpEmergency.ts",
+    "className": "EmpEmergency",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpFamily",
+    "tableName": "Emp_Family",
+    "desc": "家庭成员",
+    "filePath": "src/App/HR/Employee/EmpFamily copy.ts",
+    "className": "EmpFamily",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpFamily",
+    "tableName": "Emp_Family",
+    "desc": "家庭成员",
+    "filePath": "src/App/HR/Employee/EmpFamily.ts",
+    "className": "EmpFamily",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.Employee",
+    "tableName": "Emp_Employee",
+    "desc": "员工",
+    "filePath": "src/App/HR/Employee/Employee.ts",
+    "className": "Employee",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpPracRegister",
+    "tableName": "Emp_PracRegister",
+    "desc": "实习期转正",
+    "filePath": "src/App/HR/Employee/EmpPracRegister.ts",
+    "className": "EmpPracRegister",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpProbRegister",
+    "tableName": "Emp_ProbRegister",
+    "desc": "试用期转正",
+    "filePath": "src/App/HR/Employee/EmpProbRegister.ts",
+    "className": "EmpProbRegister",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpSkill",
+    "tableName": "Emp_Skill",
+    "desc": "技能证书",
+    "filePath": "src/App/HR/Employee/EmpSkill.ts",
+    "className": "EmpSkill",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpSkillExt",
+    "tableName": "Emp_Skill",
+    "desc": "技能证书",
+    "filePath": "src/App/HR/Employee/EmpSkillExt.ts",
+    "className": "EmpSkillExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.Emptraining",
+    "tableName": "Emp_training",
+    "desc": "培训经历",
+    "filePath": "src/App/HR/Employee/Emptraining.ts",
+    "className": "Emptraining",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.EmpWorking",
+    "tableName": "Emp_Working",
+    "desc": "工作经历",
+    "filePath": "src/App/HR/Employee/EmpWorking.ts",
+    "className": "EmpWorking",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.DeptHis",
+    "tableName": "Org_DeptHis",
+    "desc": "部门历史信息",
+    "filePath": "src/App/HR/Organization/DeptHis.ts",
+    "className": "DeptHis",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.HR.HRDept",
+    "tableName": "Org_Dept",
+    "desc": "部门信息",
+    "filePath": "src/App/HR/Organization/HRDept.ts",
+    "className": "HRDept",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.HR.HROrg",
+    "tableName": "Org_Org",
+    "desc": "公司信息",
+    "filePath": "src/App/HR/Organization/HROrg.ts",
+    "className": "HROrg",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.HROrgjob",
+    "tableName": "Org_job",
+    "desc": "职位信息",
+    "filePath": "src/App/HR/Organization/HROrgjob.ts",
+    "className": "HROrgjob",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.HROrgPosition",
+    "tableName": "Org_Position",
+    "desc": "岗位管理",
+    "filePath": "src/App/HR/Organization/HROrgPosition.ts",
+    "className": "HROrgPosition",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.JobHis",
+    "tableName": "Org_jobHis",
+    "desc": "职位历史信息",
+    "filePath": "src/App/HR/Organization/JobHis.ts",
+    "className": "JobHis",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.OrgHis",
+    "tableName": "Org_OrgHis",
+    "desc": "单位历史信息",
+    "filePath": "src/App/HR/Organization/OrgHis.ts",
+    "className": "OrgHis",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.PositionHis",
+    "tableName": "Org_PositionHis",
+    "desc": "岗位历史信息",
+    "filePath": "src/App/HR/Organization/PositionHis.ts",
+    "className": "PositionHis",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.HeTongSort",
+    "tableName": "PM_HeTongSort",
+    "desc": "合同类别",
+    "filePath": "src/App/PrjAdmin/Dict/HeTongSort.ts",
+    "className": "HeTongSort",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.HeTongType",
+    "tableName": "PM_HeTongType",
+    "desc": "合同类型",
+    "filePath": "src/App/PrjAdmin/Dict/HeTongType.ts",
+    "className": "HeTongType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.KaiPiao",
+    "tableName": "PM_KaiPiao",
+    "desc": "开票信息",
+    "filePath": "src/App/PrjAdmin/Dict/KaiPiao.ts",
+    "className": "KaiPiao",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.MuBiao",
+    "tableName": "PM_MuBiao",
+    "desc": "年度目标",
+    "filePath": "src/App/PrjAdmin/Dict/MuBiao.ts",
+    "className": "MuBiao",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.Price",
+    "tableName": "PM_Price",
+    "desc": "单价库",
+    "filePath": "src/App/PrjAdmin/Dict/Price.ts",
+    "className": "Price",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.WorkJieDuan",
+    "tableName": "PM_WorkJieDuan",
+    "desc": "工作阶段",
+    "filePath": "src/App/PrjAdmin/Dict/WorkJieDuan.ts",
+    "className": "WorkJieDuan",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.WorkNode",
+    "tableName": "PM_WorkNode",
+    "desc": "工作节点",
+    "filePath": "src/App/PrjAdmin/Dict/WorkNode.ts",
+    "className": "WorkNode",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.ZhuanYe",
+    "tableName": "PM_ZhuanYe",
+    "desc": "主专业",
+    "filePath": "src/App/PrjAdmin/Dict/ZhuanYe.ts",
+    "className": "ZhuanYe",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.HtDtl",
+    "tableName": "PM_HtDtl",
+    "desc": "原合同金额变更明细",
+    "filePath": "src/App/PrjAdmin/HeTong/HtDtl.ts",
+    "className": "HtDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.HTIncome",
+    "tableName": "PM_HTIncome",
+    "desc": "收入合同",
+    "filePath": "src/App/PrjAdmin/HeTong/HTIncome.ts",
+    "className": "HTIncome",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.LianHeTi",
+    "tableName": "PM_LianHeTi",
+    "desc": "联合体方明细",
+    "filePath": "src/App/PrjAdmin/HeTong/LianHeTi.ts",
+    "className": "LianHeTi",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.MCHTIncome",
+    "tableName": "PM_HTMoneyChange",
+    "desc": "金额变动台账",
+    "filePath": "src/App/PrjAdmin/HeTong/MCHTIncome.ts",
+    "className": "MCHTIncome",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ND1602ShouRuZiXiangMuChaiF",
+    "tableName": "ND1602ShouRuZiXiangMuChaiF",
+    "desc": "收入子项目",
+    "filePath": "src/App/PrjAdmin/HeTong/ND1602ShouRuZiXiangMuChaiF.ts",
+    "className": "ND1602ShouRuZiXiangMuChaiF",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND16Rpt",
+    "tableName": "ND16Rpt",
+    "desc": "结算批复",
+    "filePath": "src/App/PrjAdmin/HeTong/ND16Rpt.ts",
+    "className": "ND16Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND201Dtl1",
+    "tableName": "ND201YHTJEBGMX",
+    "desc": "原合同金额变更明细",
+    "filePath": "src/App/PrjAdmin/HeTong/ND201Dtl1.ts",
+    "className": "ND201Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND201HeTongShouFeiTiaoKua",
+    "tableName": "ND201HeTongShouFeiTiaoKua",
+    "desc": "合同收费条款",
+    "filePath": "src/App/PrjAdmin/HeTong/ND201HeTongShouFeiTiaoKua.ts",
+    "className": "ND201HeTongShouFeiTiaoKua",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND201LianHeTi",
+    "tableName": "ND201LianHeTi",
+    "desc": "联合体方明细",
+    "filePath": "src/App/PrjAdmin/HeTong/ND201LianHeTi.ts",
+    "className": "ND201LianHeTi",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND201ShouRuZiXiangMuChaiF",
+    "tableName": "ND201ShouRuZiXiangMuChaiF",
+    "desc": "收入子项目拆分",
+    "filePath": "src/App/PrjAdmin/HeTong/ND201ShouRuZiXiangMuChaiF.ts",
+    "className": "ND201ShouRuZiXiangMuChaiF",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND2Rpt",
+    "tableName": "ND2Rpt",
+    "desc": "收入合同",
+    "filePath": "src/App/PrjAdmin/HeTong/ND2Rpt.ts",
+    "className": "ND2Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.SaoMiaoFJ",
+    "tableName": "PM_SaoMiaoFJ",
+    "desc": "扫描附件",
+    "filePath": "src/App/PrjAdmin/HeTong/SaoMiaoFJ.ts",
+    "className": "SaoMiaoFJ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ShouFeiTK",
+    "tableName": "PM_ShouFeiTK",
+    "desc": "合同收费条款",
+    "filePath": "src/App/PrjAdmin/HeTong/ShouFeiTK.ts",
+    "className": "ShouFeiTK",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ShouRuZXCF",
+    "tableName": "PM_ShouRuZXCF",
+    "desc": "收入子项拆分",
+    "filePath": "src/App/PrjAdmin/HeTong/ShouRuZXCF.ts",
+    "className": "ShouRuZXCF",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ZhongBiaoFJ",
+    "tableName": "PM_ZhongBiaoFJ",
+    "desc": "中标附件",
+    "filePath": "src/App/PrjAdmin/HeTong/ZhongBiaoFJ.ts",
+    "className": "ZhongBiaoFJ",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ZHTIncome",
+    "tableName": "PM_HTIncome",
+    "desc": "主合同",
+    "filePath": "src/App/PrjAdmin/HeTong/ZHTIncome.ts",
+    "className": "ZHTIncome",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FJForm",
+    "tableName": "fujianonline",
+    "desc": "附件台账",
+    "filePath": "src/App/PrjAdmin/Form/FJForm.ts",
+    "className": "FJForm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FWRYDict",
+    "tableName": "rpt_fwry",
+    "desc": "服务人员",
+    "filePath": "src/App/PrjAdmin/Form/FWRYDict.ts",
+    "className": "FWRYDict",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.GZLFWRYDict",
+    "tableName": "rpt_ssglzry",
+    "desc": "工作量服务人员",
+    "filePath": "src/App/PrjAdmin/Form/GZLFWRYDict.ts",
+    "className": "GZLFWRYDict",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.JYQKForm",
+    "tableName": "jyqk",
+    "desc": "年度经营情况",
+    "filePath": "src/App/PrjAdmin/Form/JYQKForm.ts",
+    "className": "JYQKForm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.RGCBFTBForm",
+    "tableName": "form_rgcb",
+    "desc": "人工成本",
+    "filePath": "src/App/PrjAdmin/Form/RGCBFTBForm.ts",
+    "className": "RGCBFTBForm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.SCSDict",
+    "tableName": "rpt_scs",
+    "desc": "审查师",
+    "filePath": "src/App/PrjAdmin/Form/SCSDict.ts",
+    "className": "SCSDict",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.SSForm",
+    "tableName": "rpt_sstz",
+    "desc": "项目送审报表查询",
+    "filePath": "src/App/PrjAdmin/Form/SSForm.ts",
+    "className": "SSForm",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.SSGZLForm",
+    "tableName": "rpt_ssglz",
+    "desc": "人员工作量计算",
+    "filePath": "src/App/PrjAdmin/Form/SSGZLForm.ts",
+    "className": "SSGZLForm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.SSGZLGroupTJ",
+    "tableName": "PM_SSGZLTJ",
+    "desc": "工作量统计",
+    "filePath": "src/App/PrjAdmin/Form/SSGZLGroupTJ.ts",
+    "className": "SSGZLGroupTJ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.XMJDForm",
+    "tableName": "xmjdb",
+    "desc": "项目进度报表",
+    "filePath": "src/App/PrjAdmin/Form/XMJDForm.ts",
+    "className": "XMJDForm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.BoFuSQ",
+    "tableName": "PM_BoFuSQ",
+    "desc": "主营分包拨付",
+    "filePath": "src/App/PrjAdmin/HeTongFB/BoFuSQ.ts",
+    "className": "BoFuSQ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FenBaoSQ",
+    "tableName": "PM_FenBaoSQ",
+    "desc": "主营分包",
+    "filePath": "src/App/PrjAdmin/HeTongFB/FenBaoSQ.ts",
+    "className": "FenBaoSQ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ND4Rpt",
+    "tableName": "ND4Rpt",
+    "desc": "主营分包流程",
+    "filePath": "src/App/PrjAdmin/HeTongFB/ND4Rpt.ts",
+    "className": "ND4Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND6Rpt",
+    "tableName": "ND6Rpt",
+    "desc": "主营分包拨付流程",
+    "filePath": "src/App/PrjAdmin/HeTongFB/ND6Rpt.ts",
+    "className": "ND6Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ZhiChuSQ",
+    "tableName": "PM_ZhiChuSQ",
+    "desc": "非主营支出合同审批表",
+    "filePath": "src/App/PrjAdmin/HeTongFB/ZhiChuSQ.ts",
+    "className": "ZhiChuSQ",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.FaPiaoTZ",
+    "tableName": "PM_FaPiaoInfo",
+    "desc": "发票台账未作废",
+    "filePath": "src/App/PrjAdmin/KaiPiao/FaPiaoTZ.ts",
+    "className": "FaPiaoTZ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FaPiaoTZZF",
+    "tableName": "PM_FaPiaoInfo",
+    "desc": "发票台账作废",
+    "filePath": "src/App/PrjAdmin/KaiPiao/FaPiaoTZZF.ts",
+    "className": "FaPiaoTZZF",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.JieSuanFJ",
+    "tableName": "PM_JieSuanFJ",
+    "desc": "结算资料附件",
+    "filePath": "src/App/PrjAdmin/KaiPiao/JieSuanFJ.ts",
+    "className": "JieSuanFJ",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.KaiPiaoSQ",
+    "tableName": "PM_KaiPiaoSQ",
+    "desc": "开票申请",
+    "filePath": "src/App/PrjAdmin/KaiPiao/KaiPiaoSQ.ts",
+    "className": "KaiPiaoSQ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ND301Dtl1",
+    "tableName": "ND301XiangXiFaPiaoXinXi",
+    "desc": "详细发票信息",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND301Dtl1.ts",
+    "className": "ND301Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND301HeTongShouFeiTiaoKua",
+    "tableName": "ND301HeTongShouFeiTiaoKua",
+    "desc": "合同收费条款",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND301HeTongShouFeiTiaoKua.ts",
+    "className": "ND301HeTongShouFeiTiaoKua",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND301LianHeTiFangMingXi",
+    "tableName": "ND301LianHeTiFangMingXi",
+    "desc": "联合体方明细",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND301LianHeTiFangMingXi.ts",
+    "className": "ND301LianHeTiFangMingXi",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND301XiangGuanLieBiao",
+    "tableName": "ND301XiangGuanLieBiao",
+    "desc": "相关列表",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND301XiangGuanLieBiao.ts",
+    "className": "ND301XiangGuanLieBiao",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND3Rpt",
+    "tableName": "ND3Rpt",
+    "desc": "开票流程",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND3Rpt.ts",
+    "className": "ND3Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND701Dtl1",
+    "tableName": "ND701ShouKuanMingXi",
+    "desc": "收款明细",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND701Dtl1.ts",
+    "className": "ND701Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND701LianHeTiFangMingXi",
+    "tableName": "ND701LianHeTiFangMingXi",
+    "desc": "收费管理联合体方明细",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND701LianHeTiFangMingXi.ts",
+    "className": "ND701LianHeTiFangMingXi",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND7Rpt",
+    "tableName": "ND7Rpt",
+    "desc": "收费台账",
+    "filePath": "src/App/PrjAdmin/KaiPiao/ND7Rpt.ts",
+    "className": "ND7Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1801GZLQRCK",
+    "tableName": "ND1801GZLQRCK",
+    "desc": "工作量确认敞口核算",
+    "filePath": "src/App/PrjAdmin/WorkHS/ND1801GZLQRCK.ts",
+    "className": "ND1801GZLQRCK",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1801GZLQRGD",
+    "tableName": "ND1801GZLQRGD",
+    "desc": "工作量确认轨道",
+    "filePath": "src/App/PrjAdmin/WorkHS/ND1801GZLQRGD.ts",
+    "className": "ND1801GZLQRGD",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1801GZLQRSWYS",
+    "tableName": "ND1801GZLQRSWYS",
+    "desc": "工作量确认十万以下核算",
+    "filePath": "src/App/PrjAdmin/WorkHS/ND1801GZLQRSWYS.ts",
+    "className": "ND1801GZLQRSWYS",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1801GZLQRSWYX",
+    "tableName": "ND1801GZLQRSWYX",
+    "desc": "工作量确认十万以下核算",
+    "filePath": "src/App/PrjAdmin/WorkHS/ND1801GZLQRSWYX.ts",
+    "className": "ND1801GZLQRSWYX",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1801ZongGongZuoLiangXian",
+    "tableName": "ND1801ZongGongZuoLiangXian",
+    "desc": "工作量确认敞口核算",
+    "filePath": "src/App/PrjAdmin/WorkHS/ND1801ZongGongZuoLiangXian.ts",
+    "className": "ND1801ZongGongZuoLiangXian",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.Workload",
+    "tableName": "PM_Workload",
+    "desc": "工作量核算",
+    "filePath": "src/App/PrjAdmin/WorkHS/Workload.ts",
+    "className": "Workload",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.Contact",
+    "tableName": "PM_Contact",
+    "desc": "联系人",
+    "filePath": "src/App/PrjAdmin/XiangMu/Contact.ts",
+    "className": "Contact",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.DanWei",
+    "tableName": "PM_DanWei",
+    "desc": "单位",
+    "filePath": "src/App/PrjAdmin/XiangMu/DanWei.ts",
+    "className": "DanWei",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.FrmDB",
+    "tableName": "sys_frmattachmentdb",
+    "desc": "附件存储表",
+    "filePath": "src/App/PrjAdmin/XiangMu/FrmDB.ts",
+    "className": "FrmDB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FuWuRY",
+    "tableName": "PM_FuWuRY",
+    "desc": "项目服务人员",
+    "filePath": "src/App/PrjAdmin/XiangMu/FuWuRY.ts",
+    "className": "FuWuRY",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.ND101Dtl1",
+    "tableName": "ND1101Dtl1",
+    "desc": "立项信息",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND101Dtl1.ts",
+    "className": "ND101Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND101TuZhi",
+    "tableName": "ND101TuZhi2",
+    "desc": "图纸",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND101TuZhi.ts",
+    "className": "ND101TuZhi",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND101TuZhi",
+    "tableName": "ND101DangFeiGuiDao",
+    "desc": "非轨道工作内容",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND101WorkFDtl.ts",
+    "className": "ND101WorkFDtl",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1201Dtl1",
+    "tableName": "ND1201Dtl1",
+    "desc": "轨道工作内容",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND1201Dtl1.ts",
+    "className": "ND1201Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1301Dtl1",
+    "tableName": "ND1301Dtl1",
+    "desc": "轨道工作内容",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND1301Dtl1.ts",
+    "className": "ND1301Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.ND1Rpt",
+    "tableName": "ND1Rpt",
+    "desc": "项目立项",
+    "filePath": "src/App/PrjAdmin/XiangMu/ND1Rpt.ts",
+    "className": "ND1Rpt",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.PM.Prj",
+    "tableName": "PM_Prj",
+    "desc": "项目",
+    "filePath": "src/App/PrjAdmin/XiangMu/Prj.ts",
+    "className": "Prj",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.PrjSSLC",
+    "tableName": "PM_PrjSSLC",
+    "desc": "项目送审流程表",
+    "filePath": "src/App/PrjAdmin/XiangMu/PrjSSLC.ts",
+    "className": "PrjSSLC",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.PrjZGZL",
+    "tableName": "PM_PrjZGZL",
+    "desc": "项目总工作量审批表",
+    "filePath": "src/App/PrjAdmin/XiangMu/PrjZGZL.ts",
+    "className": "PrjZGZL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.PrjZGZLBG",
+    "tableName": "PM_PrjZGZLBG",
+    "desc": "项目总工作量变更审批表",
+    "filePath": "src/App/PrjAdmin/XiangMu/PrjZGZLBG.ts",
+    "className": "PrjZGZLBG",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.QiangTiaoSS",
+    "tableName": "PM_QiangTiaoSS",
+    "desc": "强条统计表",
+    "filePath": "src/App/PrjAdmin/XiangMu/QiangTiaoSS.ts",
+    "className": "QiangTiaoSS",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.RenYuan",
+    "tableName": "Port_Emp",
+    "desc": "人员",
+    "filePath": "src/App/PrjAdmin/XiangMu/RenYuan.ts",
+    "className": "RenYuan",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.RenYuanZhuanYe",
+    "tableName": "PM_RenYuanZhuanYe",
+    "desc": "人员专业",
+    "filePath": "src/App/PrjAdmin/XiangMu/RenYuanZhuanYe.ts",
+    "className": "RenYuanZhuanYe",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.TuoZhi",
+    "tableName": "PM_TuZhi",
+    "desc": "图纸",
+    "filePath": "src/App/PrjAdmin/XiangMu/TuoZhi.ts",
+    "className": "TuoZhi",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkDaily",
+    "tableName": "PM_WorkDaily",
+    "desc": "工作日报",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkDaily.ts",
+    "className": "WorkDaily",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkDailyDtl",
+    "tableName": "PM_WorkDailyDtl",
+    "desc": "工作日报详情",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkDailyDtl.ts",
+    "className": "WorkDailyDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkDtl",
+    "tableName": "PM_WorkDtl",
+    "desc": "轨道工作内容",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkDtl.ts",
+    "className": "WorkDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkDtlBG",
+    "tableName": "PM_WorkDtlBG",
+    "desc": "轨道工作内容变更审批",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkDtlBG.ts",
+    "className": "WorkDtlBG",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkDtlSS",
+    "tableName": "PM_WorkDtlSS",
+    "desc": "轨道工作内容送审",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkDtlSS.ts",
+    "className": "WorkDtlSS",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.WorkFDtl",
+    "tableName": "PM_WorkFDtl",
+    "desc": "非轨道工作内容",
+    "filePath": "src/App/PrjAdmin/XiangMu/WorkFDtl.ts",
+    "className": "WorkFDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.FGDSubproject",
+    "tableName": "PM_FGDSubproject",
+    "desc": "非轨道收入子项目",
+    "filePath": "src/App/PrjAdmin/XiangMuHS/FGDSubproject.ts",
+    "className": "FGDSubproject",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.GDDtl",
+    "tableName": "PM_GDDtl",
+    "desc": "子项目确认",
+    "filePath": "src/App/PrjAdmin/XiangMuHS/GDDtl.ts",
+    "className": "GDDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.PM.GDSubproject",
+    "tableName": "PM_GDSubproject",
+    "desc": "轨道收入子项目",
+    "filePath": "src/App/PrjAdmin/XiangMuHS/GDSubproject.ts",
+    "className": "GDSubproject",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.PM.ND801Dtl1",
+    "tableName": "ND801ZiXiangMuQueRen",
+    "desc": "子项目确认",
+    "filePath": "src/App/PrjAdmin/XiangMuHS/ND801Dtl1.ts",
+    "className": "ND801Dtl1",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.DTDaily",
+    "tableName": "TA_DTDaily",
+    "desc": "日志",
+    "filePath": "src/App/TA/TSClass/DTDaily.ts",
+    "className": "DTDaily",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.TA.DTDailyDtl",
+    "tableName": "TA_DTDailyDtl",
+    "desc": "记录",
+    "filePath": "src/App/TA/TSClass/DTDailyDtl.ts",
+    "className": "DTDailyDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.TA.PrjDaily",
+    "tableName": "TA_Project",
+    "desc": "日常项目",
+    "filePath": "src/App/TA/TSClass/PrjDaily.ts",
+    "className": "PrjDaily",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.PrjDailyDtl",
+    "tableName": "TA_ProjectNode",
+    "desc": "项目模块",
+    "filePath": "src/App/TA/TSClass/PrjDailyDtl.ts",
+    "className": "PrjDailyDtl",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.TA.PrjSection",
+    "tableName": "TA_Project",
+    "desc": "日常项目",
+    "filePath": "src/App/TA/TSClass/PrjSection.ts",
+    "className": "PrjSection",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.PrjSectionDtl",
+    "tableName": "TA_ProjectNode",
+    "desc": "阶段固定项目",
+    "filePath": "src/App/TA/TSClass/PrjSectionDtl.ts",
+    "className": "PrjSectionDtl",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.TA.PrjTaskTree",
+    "tableName": "TA_Project",
+    "desc": "日常项目",
+    "filePath": "src/App/TA/TSClass/PrjTaskTree.ts",
+    "className": "PrjTaskTree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Project",
+    "tableName": "TA_Project",
+    "desc": "项目",
+    "filePath": "src/App/TA/TSClass/Project.ts",
+    "className": "Project",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Task",
+    "tableName": "TA_Task",
+    "desc": "任务",
+    "filePath": "src/App/TA/TSClass/ProjectTask.ts",
+    "className": "ProjectTask",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.Task",
+    "tableName": "TA_Task",
+    "desc": "任务",
+    "filePath": "src/App/TA/TSClass/Task.ts",
+    "className": "Task",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.Track",
+    "tableName": "TA_Track",
+    "desc": "日志",
+    "filePath": "src/App/TA/TSClass/Track.ts",
+    "className": "Track",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.TA.WorkerList",
+    "tableName": "TA_WorkerList",
+    "desc": "工作人员",
+    "filePath": "src/App/TA/TSClass/WorkerList.ts",
+    "className": "WorkerList",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.TA.TaskSubmit",
+    "tableName": "TA_Task",
+    "desc": "提交任务",
+    "filePath": "src/App/TA/db/TaskSubmit.ts",
+    "className": "TaskSubmit",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGC_InventoryStatistics",
+    "tableName": "BGC_InventoryStatistics",
+    "desc": "办公用品库存",
+    "filePath": "src/App/YNJT/BGS/BGC_InventoryStatistics.ts",
+    "className": "BGC_InventoryStatistics",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_DetailedListofOfficeSuppliesOutbound",
+    "tableName": "view_BGSYPCKMX",
+    "desc": "办公室用品出库明细",
+    "filePath": "src/App/YNJT/BGS/BGS_DetailedListofOfficeSuppliesOutbound.ts",
+    "className": "BGS_DetailedListofOfficeSuppliesOutbound",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_MeetingManagement",
+    "tableName": "view_BGS_HYGL",
+    "desc": "会议管理",
+    "filePath": "src/App/YNJT/BGS/BGS_MeetingManagement.ts",
+    "className": "BGS_MeetingManagement",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_OfficeBudgetControlTable",
+    "tableName": "view_bgsjfgkb",
+    "desc": "办公室经费管控表",
+    "filePath": "src/App/YNJT/BGS/BGS_OfficeBudgetControlTable.ts",
+    "className": "BGS_OfficeBudgetControlTable",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_OfficeSuppliesInventoryEntryDetail",
+    "tableName": "view_BGSYPRKMX",
+    "desc": "办公室用品入库明细",
+    "filePath": "src/App/YNJT/BGS/BGS_OfficeSuppliesInventoryEntryDetail.ts",
+    "className": "BGS_OfficeSuppliesInventoryEntryDetail",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_OfficeSuppliesInventoryStatistic",
+    "tableName": "view_BGSYPKC",
+    "desc": "办公室用品库存统计",
+    "filePath": "src/App/YNJT/BGS/BGS_OfficeSuppliesInventoryStatistic.ts",
+    "className": "BGS_OfficeSuppliesInventoryStatistic",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_SummaryofOfficeSuppliesOutbound",
+    "tableName": "view_BGSYPCKTJ",
+    "desc": "办公室用品出库统计",
+    "filePath": "src/App/YNJT/BGS/BGS_SummaryofOfficeSuppliesOutbound.ts",
+    "className": "BGS_SummaryofOfficeSuppliesOutbound",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.BGS_VehicleManagementLedger",
+    "tableName": "view_clgltz",
+    "desc": "车辆管理台账",
+    "filePath": "src/App/YNJT/BGS/BGS_VehicleManagementLedger.ts",
+    "className": "BGS_VehicleManagementLedger",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.AQ_AQWZ",
+    "tableName": "AQ_AQWZ",
+    "desc": "安全物资",
+    "filePath": "src/App/YNJT/AQWZ/AQ_AQWZ.ts",
+    "className": "AQ_AQWZ",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.AQ_AQWZJG_BB",
+    "tableName": "view_AQ_AQWZJG_BB",
+    "desc": "安全物资价格统计",
+    "filePath": "src/App/YNJT/AQWZ/AQ_AQWZJG_BB.ts",
+    "className": "AQ_AQWZJG_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.AQ_QLSG",
+    "tableName": "AQ_QLSG",
+    "desc": "桥梁施工",
+    "filePath": "src/App/YNJT/AQWZ/AQ_QLSG.ts",
+    "className": "AQ_QLSG",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.AQ_QLSGJG_BB",
+    "tableName": "view_AQ_QLSGJG_BB",
+    "desc": "桥梁施工价格统计",
+    "filePath": "src/App/YNJT/AQWZ/AQ_QLSGJG_BB.ts",
+    "className": "AQ_QLSGJG_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.AQ_SDSG",
+    "tableName": "AQ_SDSG",
+    "desc": "隧道施工",
+    "filePath": "src/App/YNJT/AQWZ/AQ_SDSG.ts",
+    "className": "AQ_SDSG",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.AQ_SDSGJG_BB",
+    "tableName": "view_AQ_SDSGJG_BB",
+    "desc": "隧道施工价格统计",
+    "filePath": "src/App/YNJT/AQWZ/AQ_SDSGJG_BB.ts",
+    "className": "AQ_SDSGJG_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_FYLX",
+    "tableName": "Def_FYLX",
+    "desc": "费用类型",
+    "filePath": "src/App/YNJT/BIP/Def_FYLX.ts",
+    "className": "Def_FYLX",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.Def_HTFZ",
+    "tableName": "Def_HTFZ",
+    "desc": "合同辅助",
+    "filePath": "src/App/YNJT/BIP/Def_HTFZ.ts",
+    "className": "Def_HTFZ",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_JSFS",
+    "tableName": "Def_JSFS",
+    "desc": "结算方式",
+    "filePath": "src/App/YNJT/BIP/Def_JSFS.ts",
+    "className": "Def_JSFS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_KHYH",
+    "tableName": "Def_KHYH",
+    "desc": "开户银行",
+    "filePath": "src/App/YNJT/BIP/Def_KHYH.ts",
+    "className": "Def_KHYH",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_KS",
+    "tableName": "Def_KS",
+    "desc": "客商",
+    "filePath": "src/App/YNJT/BIP/Def_KS.ts",
+    "className": "Def_KS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_PJLX",
+    "tableName": "Def_PJLX",
+    "desc": "票据类型",
+    "filePath": "src/App/YNJT/BIP/Def_PJLX.ts",
+    "className": "Def_PJLX",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.Def_PZZ",
+    "tableName": "Def_PZZ",
+    "desc": "凭证字",
+    "filePath": "src/App/YNJT/BIP/Def_PZZ.ts",
+    "className": "Def_PZZ",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_QYYHZH",
+    "tableName": "Def_QYYHZH",
+    "desc": "企业银行账户",
+    "filePath": "src/App/YNJT/BIP/Def_QYYHZH.ts",
+    "className": "Def_QYYHZH",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_SKLX",
+    "tableName": "Def_SKLX",
+    "desc": "收款类型",
+    "filePath": "src/App/YNJT/BIP/Def_SKLX.ts",
+    "className": "Def_SKLX",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_SZXM",
+    "tableName": "Def_SZXM",
+    "desc": "收支项目",
+    "filePath": "src/App/YNJT/BIP/Def_SZXM.ts",
+    "className": "Def_SZXM",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.Def_XJLLXM",
+    "tableName": "Def_XJLLXM",
+    "desc": "现金流量项目",
+    "filePath": "src/App/YNJT/BIP/Def_XJLLXM.ts",
+    "className": "Def_XJLLXM",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_YHLB",
+    "tableName": "Def_YHLB",
+    "desc": "银行类别",
+    "filePath": "src/App/YNJT/BIP/Def_YHLB.ts",
+    "className": "Def_YHLB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Def_YWLX",
+    "tableName": "Def_YWLX",
+    "desc": "业务类型",
+    "filePath": "src/App/YNJT/BIP/Def_YWLX.ts",
+    "className": "Def_YWLX",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.CW_BankAccount_BasicData",
+    "tableName": "CW_BankAccount_BasicData",
+    "desc": "银行账户信息_基础数据",
+    "filePath": "src/App/YNJT/CAIWU/CW_BankAccount_BasicData.ts",
+    "className": "CW_BankAccount_BasicData",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.CW_BankAccount_Opening",
+    "tableName": "CW_BankAccount_Opening",
+    "desc": "银行账户增加申请",
+    "filePath": "src/App/YNJT/CAIWU/CW_BankAccount_Opening.ts",
+    "className": "CW_BankAccount_Opening",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.bzqdzdj",
+    "tableName": "Prj_bzqdzdj",
+    "desc": "工程指导价",
+    "filePath": "src/App/YNJT/Dict/bzqdzdj.ts",
+    "className": "bzqdzdj",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GCLB",
+    "tableName": "Prj_GCLB",
+    "desc": "工程类别",
+    "filePath": "src/App/YNJT/Dict/GCLB.ts",
+    "className": "GCLB",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.GC_bmb",
+    "tableName": "GC_bmb",
+    "desc": "部门表",
+    "filePath": "src/App/YNJT/Dict/GC_bmb.ts",
+    "className": "GC_bmb",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_bzqdzdj",
+    "tableName": "GC_bzqdzdj",
+    "desc": "标准清单指导价",
+    "filePath": "src/App/YNJT/Dict/GC_bzqdzdj.ts",
+    "className": "GC_bzqdzdj",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_gclb",
+    "tableName": "GC_gclb",
+    "desc": "工程类别",
+    "filePath": "src/App/YNJT/Dict/GC_gclb.ts",
+    "className": "GC_gclb",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.GC_kjzz",
+    "tableName": "GC_kjzz",
+    "desc": "会计组织",
+    "filePath": "src/App/YNJT/Dict/GC_kjzz.ts",
+    "className": "GC_kjzz",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_wldw",
+    "tableName": "GC_wldw",
+    "desc": "往来单位",
+    "filePath": "src/App/YNJT/Dict/GC_wldw.ts",
+    "className": "GC_wldw",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_wzlx",
+    "tableName": "GC_wzlx",
+    "desc": "物资类型",
+    "filePath": "src/App/YNJT/Dict/GC_wzlx.ts",
+    "className": "GC_wzlx",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YNJT.GC_zgsjlb",
+    "tableName": "GC_zgsjlb",
+    "desc": "子公司建立表",
+    "filePath": "src/App/YNJT/Dict/GC_zgsjlb.ts",
+    "className": "GC_zgsjlb",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HeTongType",
+    "tableName": "Prj_HeTongType",
+    "desc": "合同类型",
+    "filePath": "src/App/YNJT/Dict/HeTongType.ts",
+    "className": "HeTongType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTSP_XM_SPR",
+    "tableName": "HTSP_XM_SPR",
+    "desc": "合同审批人（项目）配置表",
+    "filePath": "src/App/YNJT/HTGL/HTSP_XM_SPR.ts",
+    "className": "HTSP_XM_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTSP_ZB_SPR",
+    "tableName": "HTSP_ZB_SPR",
+    "desc": "合同审批人（总包）配置表",
+    "filePath": "src/App/YNJT/HTGL/HTSP_ZB_SPR.ts",
+    "className": "HTSP_ZB_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTSP_ZGS_SPR",
+    "tableName": "HTSP_ZGS_SPR",
+    "desc": "合同审批人（子公司）配置表",
+    "filePath": "src/App/YNJT/HTGL/HTSP_ZGS_SPR.ts",
+    "className": "HTSP_ZGS_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTSP_ZSZB_SPR",
+    "tableName": "HTSP_ZSZB_SPR",
+    "desc": "合同审批人（直属总包）配置表",
+    "filePath": "src/App/YNJT/HTGL/HTSP_ZSZB_SPR.ts",
+    "className": "HTSP_ZSZB_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTSP_ZYFB_SPR",
+    "tableName": "HTSP_ZYFB_SPR",
+    "desc": "合同审批人（专业分包）配置表",
+    "filePath": "src/App/YNJT/HTGL/HTSP_ZYFB_SPR.ts",
+    "className": "HTSP_ZYFB_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.HTTZ_SPR",
+    "tableName": "HTTZ_SPR",
+    "desc": "合同台账审批人配置表",
+    "filePath": "src/App/YNJT/HTGL/HTTZ_SPR.ts",
+    "className": "HTTZ_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_BankAccount_Opening",
+    "tableName": "GC_BankAccount_Opening",
+    "desc": "银行账户增加申请",
+    "filePath": "src/App/YNJT/GC/GC_BankAccount_ Opening.ts",
+    "className": "GC_BankAccount_Opening",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_BGTZBDetail",
+    "tableName": "GC_BGTZB_qdmx",
+    "desc": "工程清单明细",
+    "filePath": "src/App/YNJT/GC/GC_BGTZBDetail.ts",
+    "className": "GC_BGTZBDetail",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_BGTZBMstr",
+    "tableName": "GC_BGTZB",
+    "desc": "变更台账表",
+    "filePath": "src/App/YNJT/GC/GC_BGTZBMstr.ts",
+    "className": "GC_BGTZBMstr",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_biao1_BB",
+    "tableName": "view_GC_biao1_BB",
+    "desc": "表1:对下劳务合作中期结算报表",
+    "filePath": "src/App/YNJT/GC/GC_biao1_BB.ts",
+    "className": "GC_biao1_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_biao2_BB",
+    "tableName": "view_GC_biao2_BB",
+    "desc": "表2:对下劳务结算表",
+    "filePath": "src/App/YNJT/GC/GC_biao2_BB.ts",
+    "className": "GC_biao2_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_biao3_BB",
+    "tableName": "view_GC_biao3_BB",
+    "desc": "表3:对下劳务明细表",
+    "filePath": "src/App/YNJT/GC/GC_biao3_BB.ts",
+    "className": "GC_biao3_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_fbfktz_BB",
+    "tableName": "XZFK_TEST",
+    "desc": "分包付款台账",
+    "filePath": "src/App/YNJT/GC/GC_fbfktz_BB.ts",
+    "className": "GC_fbfktz_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_htjltz_BB_Table",
+    "tableName": "view_gchtjltz",
+    "desc": "合同计量台账",
+    "filePath": "src/App/YNJT/GC/GC_htjltz_BB_Table.ts",
+    "className": "GC_htjltz_BB_Table",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.bzqdzdj",
+    "tableName": "Prj_bzqdzdj",
+    "desc": "工程指导价",
+    "filePath": "src/App/YNJT/GC/GC_JGCDJMX.ts",
+    "className": "bzqdzdj",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_lbj_BB",
+    "tableName": "view_GC_lbj_BB",
+    "desc": "指导价拦标价报价对比表",
+    "filePath": "src/App/YNJT/GC/GC_lbj_BB.ts",
+    "className": "GC_lbj_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_sjlrqk_BB",
+    "tableName": "view_sjlrqk",
+    "desc": "子目单价月度浮动表",
+    "filePath": "src/App/YNJT/GC/GC_sjlrqk_BB.ts",
+    "className": "GC_sjlrqk_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_dxjlzf",
+    "tableName": "F_fenbaojiesuan",
+    "desc": "对下计量支付",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_dxjlzf.ts",
+    "className": "GC_SubQuery_dxjlzf",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_dxsfmx",
+    "tableName": "Def_DXLWHZGCJS",
+    "desc": "对下收方明细表",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_dxsfmx.ts",
+    "className": "GC_SubQuery_dxsfmx",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_dxsftj",
+    "tableName": "F_dxgcjstjb",
+    "desc": "对下收方统计表",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_dxsftj.ts",
+    "className": "GC_SubQuery_dxsftj",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_jgcdjmx",
+    "tableName": "C_jgcdjmx",
+    "desc": "甲供材单价明细",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_jgcdjmx.ts",
+    "className": "GC_SubQuery_jgcdjmx",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_xzdwtzjl",
+    "tableName": "Def_CLNDJH",
+    "desc": "协作单位台账建立表",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_xzdwtzjl.ts",
+    "className": "GC_SubQuery_xzdwtzjl",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_xzht",
+    "tableName": "pur_contract",
+    "desc": "协作合同",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_xzht.ts",
+    "className": "GC_SubQuery_xzht",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_SubQuery_xzht_gclqd",
+    "tableName": "pur_contractgclqd",
+    "desc": "工程量清单",
+    "filePath": "src/App/YNJT/GC/GC_SubQuery_xzht_gclqd.ts",
+    "className": "GC_SubQuery_xzht_gclqd",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.GC_wzyhtz_BB",
+    "tableName": "view_wzyhtz",
+    "desc": "物资应耗台账",
+    "filePath": "src/App/YNJT/GC/GC_wzyhtz_BB.ts",
+    "className": "GC_wzyhtz_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_xzdwtz_BB",
+    "tableName": "view_GC_xzdwtz_BB",
+    "desc": "协作单位台账报表",
+    "filePath": "src/App/YNJT/GC/GC_xzdwtz_BB.ts",
+    "className": "GC_xzdwtz_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_yusuan_gongcheng_duibi_BB",
+    "tableName": "view_yusuan_gongcheng_duibi_BB",
+    "desc": "预算执行比例表",
+    "filePath": "src/App/YNJT/GC/GC_yusuan_gongcheng_duibi_BB.ts",
+    "className": "GC_yusuan_gongcheng_duibi_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zjdjfdhzb_BB",
+    "tableName": "view_GC_zjdjfdhzb_BB",
+    "desc": "劳务单价下浮率对比章节汇总表（2024年度）",
+    "filePath": "src/App/YNJT/GC/GC_zjdjfdhzb_BB.ts",
+    "className": "GC_zjdjfdhzb_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_gj_month",
+    "tableName": "view_GC_zmdjfddbb_BB_gj_month",
+    "desc": "月度合同子目单价（合同单价比指导价）浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_gj_month.ts",
+    "className": "GC_zmdjfddbb_BB_gj_month",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_gj_year",
+    "tableName": "view_GC_zmdjfddbb_BB_gj_year",
+    "desc": "年度合同子目单价（合同单价比指导价）浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_gj_year.ts",
+    "className": "GC_zmdjfddbb_BB_gj_year",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_none_zmh",
+    "tableName": "view_GC_zmdjfddbb_BB_none_zmh",
+    "desc": "子公司年月度章节子目单价浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_none_zmh.ts",
+    "className": "GC_zmdjfddbb_BB_none_zmh",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_none_zmh_riqi",
+    "tableName": "view_GC_zmdjfddbb_BB_none_zmh_riqi",
+    "desc": "子公司综合章节子目单价浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_none_zmh_riqi.ts",
+    "className": "GC_zmdjfddbb_BB_none_zmh_riqi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_Table",
+    "tableName": "view_GC_zmdjfddbb_BB_Table",
+    "desc": "子目单价浮动对比表_表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_Table.ts",
+    "className": "GC_zmdjfddbb_BB_Table",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_Tree",
+    "tableName": "view_GC_zmdjfddbb_BB_Tree",
+    "desc": "子目单价浮动对比表_树",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_Tree.ts",
+    "className": "GC_zmdjfddbb_BB_Tree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_zgs_month",
+    "tableName": "view_GC_zmdjfddbb_BB_zgs_month",
+    "desc": "各子公司月度合同子目单价（合同单价比指导价）浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_zgs_month.ts",
+    "className": "GC_zmdjfddbb_BB_zgs_month",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_zmh",
+    "tableName": "view_GC_zmdjfddbb_BB_zmh",
+    "desc": "子目单价月度浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_zmh.ts",
+    "className": "GC_zmdjfddbb_BB_zmh",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_zmh_bao_year",
+    "tableName": "view_GC_zmdjfddbb_BB_zmh_bao_year",
+    "desc": "专业汇总表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_zmh_bao_year.ts",
+    "className": "GC_zmdjfddbb_BB_zmh_bao_year",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_zmh_gj_year_heji",
+    "tableName": "view_GC_zmdjfddbb_BB_zmh_gj_year_heji",
+    "desc": "公司年度汇总表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_zmh_gj_year_heji.ts",
+    "className": "GC_zmdjfddbb_BB_zmh_gj_year_heji",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfddbb_BB_zmh_zgs_year",
+    "tableName": "view_GC_zmdjfddbb_BB_zmh_zgs_year",
+    "desc": "子公司汇总表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfddbb_BB_zmh_zgs_year.ts",
+    "className": "GC_zmdjfddbb_BB_zmh_zgs_year",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmdjfdhzb_BB_Table",
+    "tableName": "view_GC_zmdjfdhzb_BB_Table",
+    "desc": "子目单价浮动汇总表_表",
+    "filePath": "src/App/YNJT/GC/GC_zmdjfdhzb_BB_Table.ts",
+    "className": "GC_zmdjfdhzb_BB_Table",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.GC_zmzbtjb_gj_zmlb_BB",
+    "tableName": "view_zmzbtjb_gj_zmlx_bb",
+    "desc": "子目单价月度浮动表",
+    "filePath": "src/App/YNJT/GC/GC_zmzbtjb_gj_zmlb_BB.ts",
+    "className": "GC_zmzbtjb_gj_zmlb_BB",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.LW_LWK",
+    "tableName": "LW_LWK",
+    "desc": "劳务库管理台账",
+    "filePath": "src/App/YNJT/LWGL/LW_LWK.ts",
+    "className": "LW_LWK",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.LW_XMXX",
+    "tableName": "LW_XMXX",
+    "desc": "项目信息管理台账",
+    "filePath": "src/App/YNJT/LWGL/LW_XMXX.ts",
+    "className": "LW_XMXX",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_academic",
+    "tableName": "RS_info_academic",
+    "desc": "参加学术组织情况",
+    "filePath": "src/App/YNJT/RS/RS_info_academic.ts",
+    "className": "RS_info_academic",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_career",
+    "tableName": "RS_info_career",
+    "desc": "职业资格信息",
+    "filePath": "src/App/YNJT/RS/RS_info_career.ts",
+    "className": "RS_info_career",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_contract",
+    "tableName": "RS_info_contract",
+    "desc": "劳动合同",
+    "filePath": "src/App/YNJT/RS/RS_info_contract.ts",
+    "className": "RS_info_contract",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_edu",
+    "tableName": "RS_info_edu",
+    "desc": "学历信息",
+    "filePath": "src/App/YNJT/RS/RS_info_edu.ts",
+    "className": "RS_info_edu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_edu_full",
+    "tableName": "RS_info_edu_full",
+    "desc": "学历信息",
+    "filePath": "src/App/YNJT/RS/RS_info_edu_full.ts",
+    "className": "RS_info_edu_full",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_edu_inserve",
+    "tableName": "RS_info_edu_inserve",
+    "desc": "学历信息",
+    "filePath": "src/App/YNJT/RS/RS_info_edu_inserve.ts",
+    "className": "RS_info_edu_inserve",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_family",
+    "tableName": "RS_info_family",
+    "desc": "家庭成员信息",
+    "filePath": "src/App/YNJT/RS/RS_info_family.ts",
+    "className": "RS_info_family",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_position",
+    "tableName": "RS_info_position",
+    "desc": "现聘任职务信息",
+    "filePath": "src/App/YNJT/RS/RS_info_position.ts",
+    "className": "RS_info_position",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_post",
+    "tableName": "RS_info_post",
+    "desc": "现聘任岗位信息",
+    "filePath": "src/App/YNJT/RS/RS_info_post.ts",
+    "className": "RS_info_post",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_practicing",
+    "tableName": "RS_info_practicing",
+    "desc": "执业资格信息",
+    "filePath": "src/App/YNJT/RS/RS_info_practicing.ts",
+    "className": "RS_info_practicing",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_punish",
+    "tableName": "RS_info_punish",
+    "desc": "奖励情况",
+    "filePath": "src/App/YNJT/RS/RS_info_punish.ts",
+    "className": "RS_info_punish",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_relation",
+    "tableName": "RS_info_relation",
+    "desc": "亲属或特定关系人在集团出资企业工作情况",
+    "filePath": "src/App/YNJT/RS/RS_info_relation.ts",
+    "className": "RS_info_relation",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_retire",
+    "tableName": "RS_info_retire",
+    "desc": "退出现役军人（武警）情况",
+    "filePath": "src/App/YNJT/RS/RS_info_retire.ts",
+    "className": "RS_info_retire",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_reward",
+    "tableName": "RS_info_reward",
+    "desc": "奖励情况",
+    "filePath": "src/App/YNJT/RS/RS_info_reward.ts",
+    "className": "RS_info_reward",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_salary",
+    "tableName": "RS_info_salary",
+    "desc": "薪资信息",
+    "filePath": "src/App/YNJT/RS/RS_info_salary.ts",
+    "className": "RS_info_salary",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_science",
+    "tableName": "RS_info_science",
+    "desc": "奖励情况",
+    "filePath": "src/App/YNJT/RS/RS_info_science.ts",
+    "className": "RS_info_science",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_Table",
+    "tableName": "RS_info",
+    "desc": "人事信息",
+    "filePath": "src/App/YNJT/RS/RS_info_Table.ts",
+    "className": "RS_info_Table",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_talent",
+    "tableName": "RS_info_talent",
+    "desc": "高层次人才管理",
+    "filePath": "src/App/YNJT/RS/RS_info_talent.ts",
+    "className": "RS_info_talent",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_technical",
+    "tableName": "RS_info_technical",
+    "desc": "专业技术职称信息",
+    "filePath": "src/App/YNJT/RS/RS_info_technical.ts",
+    "className": "RS_info_technical",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_Tree",
+    "tableName": "Port_Dept",
+    "desc": "人事系统树",
+    "filePath": "src/App/YNJT/RS/RS_info_Tree.ts",
+    "className": "RS_info_Tree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_work_express",
+    "tableName": "RS_info_express",
+    "desc": "工作经历",
+    "filePath": "src/App/YNJT/RS/RS_info_work_express.ts",
+    "className": "RS_info_work_express",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.RS_info_work_type",
+    "tableName": "RS_info_work_type",
+    "desc": "工种信息",
+    "filePath": "src/App/YNJT/RS/RS_info_work_type.ts",
+    "className": "RS_info_work_type",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.EmployeeLeaveDeductionDetail",
+    "tableName": "LeaveDeductionDetail",
+    "desc": "员工请假扣款清单",
+    "filePath": "src/App/YNJT/Salary/EmployeeLeaveDeductionDetail.ts",
+    "className": "EmployeeLeaveDeductionDetail",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.EmployeeLeaveDeductionMstr",
+    "tableName": "LeaveDeduction",
+    "desc": "员工请假扣款表",
+    "filePath": "src/App/YNJT/Salary/EmployeeLeaveDeductionMstr.ts",
+    "className": "EmployeeLeaveDeductionMstr",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.PositionSalaryGradeTable",
+    "tableName": "SalaryGrade",
+    "desc": "岗位工资薪级薪档表",
+    "filePath": "src/App/YNJT/Salary/PositionSalaryGradeTable.ts",
+    "className": "PositionSalaryGradeTable",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.YNJT.Salary_month",
+    "tableName": "XZ_SalaryMonth",
+    "desc": "月薪制工资明细表",
+    "filePath": "src/App/YNJT/Salary/Salary_month.ts",
+    "className": "Salary_month",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Salary_month_leader",
+    "tableName": "XZ_SalaryMonthLeader",
+    "desc": "月薪制工资表列表",
+    "filePath": "src/App/YNJT/Salary/Salary_month_leader.ts",
+    "className": "Salary_month_leader",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Salary_month_print",
+    "tableName": "XZ_SalaryMonthPrint",
+    "desc": "月薪制工资打印表",
+    "filePath": "src/App/YNJT/Salary/Salary_month_print.ts",
+    "className": "Salary_month_print",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Salary_year",
+    "tableName": "XZ_SalaryYear",
+    "desc": "年薪制工资明细表",
+    "filePath": "src/App/YNJT/Salary/Salary_year.ts",
+    "className": "Salary_year",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Salary_year_leader",
+    "tableName": "XZ_SalaryYearLeader",
+    "desc": "年薪制工资表列表",
+    "filePath": "src/App/YNJT/Salary/Salary_year_leader.ts",
+    "className": "Salary_year_leader",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.Salary_year_print",
+    "tableName": "XZ_SalaryYearPrint",
+    "desc": "年薪制工资打印表",
+    "filePath": "src/App/YNJT/Salary/Salary_year_print.ts",
+    "className": "Salary_year_print",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YS.DeptFrm",
+    "tableName": "YS_DeptFrm",
+    "desc": "部门表单维护",
+    "filePath": "src/App/YNJT/YS/DeptFrm.ts",
+    "className": "DeptFrm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.DeptYNJT",
+    "tableName": "Port_Dept",
+    "desc": "部门",
+    "filePath": "src/App/YNJT/YS/DeptYNJT.ts",
+    "className": "DeptYNJT",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.YS.MyAdminOrg",
+    "tableName": "Port_Org",
+    "desc": "我管理的组织",
+    "filePath": "src/App/YNJT/YS/MyAdminOrg.ts",
+    "className": "MyAdminOrg",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YS.MyTask",
+    "tableName": "YS_Task",
+    "desc": "填报任务",
+    "filePath": "src/App/YNJT/YS/MyTask.ts",
+    "className": "MyTask",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.MyTaskHZ",
+    "tableName": "YS_Task",
+    "desc": "汇总任务",
+    "filePath": "src/App/YNJT/YS/MyTaskHZ.ts",
+    "className": "MyTaskHZ",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.MyTaskHZSubDtl",
+    "tableName": "YS_Task",
+    "desc": "下级任务",
+    "filePath": "src/App/YNJT/YS/MyTaskHZSubDtl.ts",
+    "className": "MyTaskHZSubDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.MyTaskSB",
+    "tableName": "YS_Task",
+    "desc": "填报任务",
+    "filePath": "src/App/YNJT/YS/MyTaskSB.ts",
+    "className": "MyTaskSB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.Task",
+    "tableName": "YS_Task",
+    "desc": "填报任务",
+    "filePath": "src/App/YNJT/YS/Task.ts",
+    "className": "Task",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.YSBatch",
+    "tableName": "YS_Batch",
+    "desc": "预算批次表",
+    "filePath": "src/App/YNJT/YS/YSBatch.ts",
+    "className": "YSBatch",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YS.YSBatchFrm",
+    "tableName": "YS_BatchFrm",
+    "desc": "预算批次表",
+    "filePath": "src/App/YNJT/YS/YSBatchFrm.ts",
+    "className": "YSBatchFrm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YS.YSDept",
+    "tableName": "YS_Dept",
+    "desc": "编写部门",
+    "filePath": "src/App/YNJT/YS/YSDept.ts",
+    "className": "YSDept",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YS.YSFrm",
+    "tableName": "YS_Frm",
+    "desc": "表单表",
+    "filePath": "src/App/YNJT/YS/YSFrm.ts",
+    "className": "YSFrm",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YS.YSOrg",
+    "tableName": "Port_Org",
+    "desc": "申报单位",
+    "filePath": "src/App/YNJT/YS/YSOrg.ts",
+    "className": "YSOrg",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.YS_SPR",
+    "tableName": "YS_SPR",
+    "desc": "预算审批人配置表",
+    "filePath": "src/App/YNJT/YS/YS_SPR.ts",
+    "className": "YS_SPR",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.YNJT.YS_SPRDtl",
+    "tableName": "YS_SPRDtl",
+    "desc": "预算workID关系表",
+    "filePath": "src/App/YNJT/YS/YS_SPRDtl.ts",
+    "className": "YS_SPRDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.YNJT.XG_Tree",
+    "tableName": "view_XG_tree",
+    "desc": "项管中心树结构",
+    "filePath": "src/App/YNJT/XG/XG_Tree.ts",
+    "className": "XG_Tree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.DBSafe",
+    "tableName": "Frm_DBRole",
+    "desc": "数据安全",
+    "filePath": "src/bp/sys/Safe/DBSafe.ts",
+    "className": "DBSafe",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.EnTable",
+    "tableName": "Sys_EnCfg",
+    "desc": "数据表",
+    "filePath": "src/bp/sys/Safe/EnTable.ts",
+    "className": "EnTable",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.SafeSetting",
+    "tableName": "WF_Emp",
+    "desc": "数据安全",
+    "filePath": "src/bp/sys/Safe/SafeSetting.ts",
+    "className": "SafeSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.ByEmpNo",
+    "tableName": "Sys_MapData",
+    "desc": "固定人员审核",
+    "filePath": "src/CCFast/CCBill/BillCheck/ByEmpNo.ts",
+    "className": "ByEmpNo",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.SelfCheck",
+    "tableName": "Sys_MapData",
+    "desc": "自定义审核",
+    "filePath": "src/CCFast/CCBill/BillCheck/SelfCheck.ts",
+    "className": "SelfCheck",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.BillSetting",
+    "tableName": "BillSetting",
+    "desc": "",
+    "filePath": "src/CCFast/CCBill/BillSetting/BillSetting.ts",
+    "className": "BillSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.BillSettingOne",
+    "tableName": "Sys_MapData",
+    "desc": "单据",
+    "filePath": "src/CCFast/CCBill/BillSetting/BillSettingOne.ts",
+    "className": "BillSettingOne",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.Collection",
+    "tableName": "Frm_Collection",
+    "desc": "集合方法",
+    "filePath": "src/CCFast/CCBill/Collection/Collection.ts",
+    "className": "Collection",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionDelete",
+    "tableName": "Frm_Collection",
+    "desc": "集合方法",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionDelete.ts",
+    "className": "CollectionDelete",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionFlowEntityBatchStart",
+    "tableName": "Frm_Collection",
+    "desc": "批量发起流程",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionFlowEntityBatchStart.ts",
+    "className": "CollectionFlowEntityBatchStart",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionFlowNewEntity",
+    "tableName": "Frm_Collection",
+    "desc": "新建实体",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionFlowNewEntity.ts",
+    "className": "CollectionFlowNewEntity",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionFunc",
+    "tableName": "Frm_Collection",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionFunc.ts",
+    "className": "CollectionFunc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionLink",
+    "tableName": "Frm_Collection",
+    "desc": "自定义链接",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionLink.ts",
+    "className": "CollectionLink",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.CollectionQRCodeAddDict",
+    "tableName": "Frm_Collection",
+    "desc": "二维码增加",
+    "filePath": "src/CCFast/CCBill/Collection/CollectionQRCodeAddDict.ts",
+    "className": "CollectionQRCodeAddDict",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.DBList",
+    "tableName": "Sys_MapData",
+    "desc": "数据源实体",
+    "filePath": "src/CCFast/CCBill/DBList/DBList.ts",
+    "className": "DBList",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Demo.DBListDBSrc",
+    "tableName": "Sys_MapData",
+    "desc": "数据源实体",
+    "filePath": "src/CCFast/CCBill/DBList/DBListDBSrc.ts",
+    "className": "DBListDBSrc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FlowDtlView",
+    "tableName": "Sys_MapData",
+    "desc": "流程从表视图",
+    "filePath": "src/CCFast/CCBill/DBList/FlowDtlView.ts",
+    "className": "FlowDtlView",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmDtlView",
+    "tableName": "Sys_MapData",
+    "desc": "表单从表视图",
+    "filePath": "src/CCFast/CCBill/DBList/FrmDtlView.ts",
+    "className": "FrmDtlView",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.GLDBView",
+    "tableName": "Sys_MapData",
+    "desc": "不分页视图",
+    "filePath": "src/CCFast/CCBill/DBList/GLDBView.ts",
+    "className": "GLDBView",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.SearchBillView",
+    "tableName": "Sys_MapData",
+    "desc": "数据源实体",
+    "filePath": "src/CCFast/CCBill/DBList/SearchBillView.ts",
+    "className": "SearchBillView",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.TreeEnsDBView",
+    "tableName": "Sys_MapData",
+    "desc": "左树右表视图",
+    "filePath": "src/CCFast/CCBill/DBList/TreeEnsDBView.ts",
+    "className": "TreeEnsDBView",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.DBRole",
+    "tableName": "Frm_DBRole",
+    "desc": "数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRole.ts",
+    "className": "DBRole",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleDept",
+    "tableName": "Frm_DBRole",
+    "desc": "部门权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleDept.ts",
+    "className": "DBRoleDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleEmp",
+    "tableName": "Frm_DBRole",
+    "desc": "人员权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleEmp.ts",
+    "className": "DBRoleEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleExp",
+    "tableName": "Frm_DBRole",
+    "desc": "人员权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleExp.ts",
+    "className": "DBRoleExp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleShowAttrsAdmin",
+    "tableName": "Frm_DBRole",
+    "desc": "管理员数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleShowAttrsAdmin.ts",
+    "className": "DBRoleShowAttrsAdmin",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleShowAttrsAdmin2",
+    "tableName": "Frm_DBRole",
+    "desc": "2级管理员数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleShowAttrsAdmin2.ts",
+    "className": "DBRoleShowAttrsAdmin2",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleShowAttrsDept",
+    "tableName": "Frm_DBRole",
+    "desc": "部门数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleShowAttrsDept.ts",
+    "className": "DBRoleShowAttrsDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleShowAttrsEmp",
+    "tableName": "Frm_DBRole",
+    "desc": "人员数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleShowAttrsEmp.ts",
+    "className": "DBRoleShowAttrsEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleShowAttrsStation",
+    "tableName": "Frm_DBRole",
+    "desc": "岗位数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleShowAttrsStation.ts",
+    "className": "DBRoleShowAttrsStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.DBRoleStation",
+    "tableName": "Frm_DBRole",
+    "desc": "岗位数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/DBRoleStation.ts",
+    "className": "DBRoleStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.GenerListEn",
+    "tableName": "Frm_GenerList",
+    "desc": "通用列表",
+    "filePath": "src/CCFast/CCBill/GenerListEn/GenerListEn.ts",
+    "className": "GenerListEn",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FlowHostBill",
+    "tableName": "Frm_Method",
+    "desc": "关联表单数据流程",
+    "filePath": "src/CCFast/CCBill/Method/FlowHostBill.ts",
+    "className": "FlowHostBill",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.GroupMethod",
+    "tableName": "Frm_GroupMethod",
+    "desc": "方法分组",
+    "filePath": "src/CCFast/CCBill/Method/GroupMethod.ts",
+    "className": "GroupMethod",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.Method",
+    "tableName": "Frm_Method",
+    "desc": "实体方法",
+    "filePath": "src/CCFast/CCBill/Method/Method.ts",
+    "className": "Method",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodBill",
+    "tableName": "Frm_Method",
+    "desc": "实体单据",
+    "filePath": "src/CCFast/CCBill/Method/MethodBill.ts",
+    "className": "MethodBill",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodDataVer",
+    "tableName": "Frm_Method",
+    "desc": "数据快照",
+    "filePath": "src/CCFast/CCBill/Method/MethodDataVer.ts",
+    "className": "MethodDataVer",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodDBList",
+    "tableName": "Frm_Method",
+    "desc": "数据列表",
+    "filePath": "src/CCFast/CCBill/Method/MethodDBList.ts",
+    "className": "MethodDBList",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodDictLog",
+    "tableName": "Frm_Method",
+    "desc": "方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodDictLog.ts",
+    "className": "MethodDictLog",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodDictRefBill",
+    "tableName": "Frm_Method",
+    "desc": "关联单据",
+    "filePath": "src/CCFast/CCBill/Method/MethodDictRefBill.ts",
+    "className": "MethodDictRefBill",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFlow",
+    "tableName": "Frm_Method",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodFlow.ts",
+    "className": "MethodFlow",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFlowBaseData",
+    "tableName": "Frm_Method",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodFlowBaseData.ts",
+    "className": "MethodFlowBaseData",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFlowEtc",
+    "tableName": "Frm_Method",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodFlowEtc.ts",
+    "className": "MethodFlowEtc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFlowHostBill",
+    "tableName": "Frm_Method",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodFlowHostBill.ts",
+    "className": "MethodFlowHostBill",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFlowNewEntity",
+    "tableName": "GPM_Menu",
+    "desc": "新建实体",
+    "filePath": "src/CCFast/CCBill/Method/MethodFlowNewEntity.ts",
+    "className": "MethodFlowNewEntity",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFrmBBS",
+    "tableName": "Frm_Method",
+    "desc": "BBS评论组件",
+    "filePath": "src/CCFast/CCBill/Method/MethodFrmBBS.ts",
+    "className": "MethodFrmBBS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFunc",
+    "tableName": "Frm_Method",
+    "desc": "功能方法",
+    "filePath": "src/CCFast/CCBill/Method/MethodFunc.ts",
+    "className": "MethodFunc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodFuncPara",
+    "tableName": "Sys_MapAttr",
+    "desc": "字段属性",
+    "filePath": "src/CCFast/CCBill/Method/MethodFuncPara.ts",
+    "className": "MethodFuncPara",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.MethodLink",
+    "tableName": "Frm_Method",
+    "desc": "连接",
+    "filePath": "src/CCFast/CCBill/Method/MethodLink.ts",
+    "className": "MethodLink",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodPrint",
+    "tableName": "Frm_Method",
+    "desc": "打印",
+    "filePath": "src/CCFast/CCBill/Method/MethodPrint.ts",
+    "className": "MethodPrint",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodPrintRTF",
+    "tableName": "Frm_Method",
+    "desc": "打印Rtf模板",
+    "filePath": "src/CCFast/CCBill/Method/MethodPrintRTF.ts",
+    "className": "MethodPrintRTF",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodQRCode",
+    "tableName": "Frm_Method",
+    "desc": "二维码",
+    "filePath": "src/CCFast/CCBill/Method/MethodQRCode.ts",
+    "className": "MethodQRCode",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodRefFlowTrack",
+    "tableName": "Frm_Method",
+    "desc": "关联单据轨迹",
+    "filePath": "src/CCFast/CCBill/Method/MethodRefFlowTrack.ts",
+    "className": "MethodRefFlowTrack",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.MethodSingleDictGenerWorkFlow",
+    "tableName": "Frm_Method",
+    "desc": "单个实体流程查询",
+    "filePath": "src/CCFast/CCBill/Method/MethodSingleDictGenerWorkFlow.ts",
+    "className": "MethodSingleDictGenerWorkFlow",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.DictFlow",
+    "tableName": "Frm_DictFlow",
+    "desc": "台账子流程",
+    "filePath": "src/CCFast/CCBill/Template/DictFlow.ts",
+    "className": "DictFlow",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.EmpCreate",
+    "tableName": "Frm_EmpCreate",
+    "desc": "单据可创建的人员",
+    "filePath": "src/CCFast/CCBill/Template/EmpCreate.ts",
+    "className": "EmpCreate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.FrmDeptCreate",
+    "tableName": "Frm_DeptCreate",
+    "desc": "单据部门",
+    "filePath": "src/CCFast/CCBill/Template/FrmDeptCreate.ts",
+    "className": "FrmDeptCreate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.FrmStationDept",
+    "tableName": "Frm_StationDept",
+    "desc": "单据角色部门",
+    "filePath": "src/CCFast/CCBill/Template/FrmStationDept.ts",
+    "className": "FrmStationDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.FrmTemplate",
+    "tableName": "Sys_MapData",
+    "desc": "单据模版",
+    "filePath": "src/CCFast/CCBill/Template/FrmTemplate.ts",
+    "className": "FrmTemplate",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.StationCreate",
+    "tableName": "Frm_StationCreate",
+    "desc": "单据可创建的角色",
+    "filePath": "src/CCFast/CCBill/Template/StationCreate.ts",
+    "className": "StationCreate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCFast.Func",
+    "tableName": "Frm_Func",
+    "desc": "功能",
+    "filePath": "src/CCFast/CCBill/Sys/Func.ts",
+    "className": "Func",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.WorkOpt.GenerWorkerApprove",
+    "tableName": "Frm_GenerWorker",
+    "desc": "审核",
+    "filePath": "src/CCFast/CCBill/WorkOpt/GenerWorkerApprove.ts",
+    "className": "GenerWorkerApprove",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.WorkOpt.GenerWorkerReturn",
+    "tableName": "Frm_GenerBill",
+    "desc": "审核退回",
+    "filePath": "src/CCFast/CCBill/WorkOpt/GenerWorkerReturn.ts",
+    "className": "GenerWorkerReturn",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.CCBill.WorkOpt.WorkerSetting",
+    "tableName": "Frm_GenerBill",
+    "desc": "预置审核人",
+    "filePath": "src/CCFast/CCBill/WorkOpt/WorkerSetting.ts",
+    "className": "WorkerSetting",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.GPM.Group",
+    "tableName": "GPM_Group",
+    "desc": "权限组",
+    "filePath": "src/CCFast/GPM/CCMenu/Group.ts",
+    "className": "Group",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.GroupDept",
+    "tableName": "GPM_GroupDept",
+    "desc": "权限组部门",
+    "filePath": "src/CCFast/GPM/CCMenu/GroupDept.ts",
+    "className": "GroupDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.GroupEmp",
+    "tableName": "GPM_GroupEmp",
+    "desc": "权限组人员",
+    "filePath": "src/CCFast/GPM/CCMenu/GroupEmp.ts",
+    "className": "GroupEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.GroupStation",
+    "tableName": "GPM_GroupStation",
+    "desc": "权限组角色",
+    "filePath": "src/CCFast/GPM/CCMenu/GroupStation.ts",
+    "className": "GroupStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.Menu",
+    "tableName": "GPM_Menu",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/Menu.ts",
+    "className": "Menu",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.MenuEmp",
+    "tableName": "GPM_MenuEmp",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/MenuEmp.ts",
+    "className": "MenuEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.MenuExt",
+    "tableName": "GPM_Menu",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/MenuExt.ts",
+    "className": "MenuExt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.MenuGenerPage",
+    "tableName": "GPM_Menu",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/MenuGenerPage.ts",
+    "className": "MenuGenerPage",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.MenuLang",
+    "tableName": "GPM_Menu",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/MenuLang.ts",
+    "className": "MenuLang",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.GPM.PowerCenter",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限中心",
+    "filePath": "src/CCFast/GPM/CCMenu/PowerCenter.ts",
+    "className": "PowerCenter",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.PCenter",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限中心",
+    "filePath": "src/CCFast/GPM/PCenter/PCenter.ts",
+    "className": "PCenter",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.PCenterDept",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/PCenterDept.ts",
+    "className": "PCenterDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.PCenterEmp",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/PCenterEmp.ts",
+    "className": "PCenterEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.PCenterSQL",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/PCenterSQL.ts",
+    "className": "PCenterSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.PCenterStation",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/PCenterStation.ts",
+    "className": "PCenterStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.SpecOrg",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/SpecOrg.ts",
+    "className": "SpecOrg",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.SpecOrgStation",
+    "tableName": "GPM_PowerCenter",
+    "desc": "权限",
+    "filePath": "src/CCFast/GPM/PCenter/SpecOrgStation.ts",
+    "className": "SpecOrgStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCFast.Windows.WindowTemplate",
+    "tableName": "GPM_WindowTemplate",
+    "desc": "信息块",
+    "filePath": "src/CCFast/Windows/Admin/WindowTemplate.ts",
+    "className": "WindowTemplate",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Template.FlowDataSetting",
+    "tableName": "WF_Flow",
+    "desc": "报表设计",
+    "filePath": "src/WF/Admin/AttrFlow/FlowDataSetting.ts",
+    "className": "FlowDataSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Template.FlowExt",
+    "tableName": "WF_Flow",
+    "desc": "流程属性",
+    "filePath": "src/WF/Admin/AttrFlow/FlowExt.ts",
+    "className": "FlowExt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Template.FlowTestParaSetting",
+    "tableName": "WF_Flow",
+    "desc": "测试参数",
+    "filePath": "src/WF/Admin/AttrFlow/FlowTestParaSetting.ts",
+    "className": "FlowTestParaSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrNode.BtnLab",
+    "tableName": "WF_Node",
+    "desc": "按钮权限",
+    "filePath": "src/WF/Admin/AttrNode/BtnLab.ts",
+    "className": "BtnLab",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.FlowSimple",
+    "tableName": "WF_Flow",
+    "desc": "流程",
+    "filePath": "src/WF/Admin/AttrNode/FlowSimple.ts",
+    "className": "FlowSimple",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.FrmNodeComponent",
+    "tableName": "WF_Node",
+    "desc": "节点表单组件",
+    "filePath": "src/WF/Admin/AttrNode/FrmNodeComponent.ts",
+    "className": "FrmNodeComponent",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeAccepter",
+    "tableName": "WF_Node",
+    "desc": "接受人规则",
+    "filePath": "src/WF/Admin/AttrNode/NodeAccepter.ts",
+    "className": "NodeAccepter",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeBatch",
+    "tableName": "WF_Node",
+    "desc": "节点组件",
+    "filePath": "src/WF/Admin/AttrNode/NodeBatch.ts",
+    "className": "NodeBatch",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeBatchWorkCheck",
+    "tableName": "WF_Node",
+    "desc": "节点组件",
+    "filePath": "src/WF/Admin/AttrNode/NodeBatchWorkCheck.ts",
+    "className": "NodeBatchWorkCheck",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Template.NodeDept",
+    "tableName": "WF_NodeDept",
+    "desc": "节点人员",
+    "filePath": "src/WF/Admin/AttrNode/NodeDept.ts",
+    "className": "NodeDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Template.NodeDir",
+    "tableName": "WF_Node",
+    "desc": "节点属性",
+    "filePath": "src/WF/Admin/AttrNode/NodeDir.ts",
+    "className": "NodeDir",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Template.NodeEmp",
+    "tableName": "WF_NodeEmp",
+    "desc": "节点人员",
+    "filePath": "src/WF/Admin/AttrNode/NodeEmp.ts",
+    "className": "NodeEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Template.NodeExt",
+    "tableName": "WF_Node",
+    "desc": "节点属性",
+    "filePath": "src/WF/Admin/AttrNode/NodeExt.ts",
+    "className": "NodeExt",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Template.NodeGovDoc",
+    "tableName": "WF_Node",
+    "desc": "公文组件",
+    "filePath": "src/WF/Admin/AttrNode/NodeGovDoc.ts",
+    "className": "NodeGovDoc",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeSimple",
+    "tableName": "WF_Node",
+    "desc": "节点",
+    "filePath": "src/WF/Admin/AttrNode/NodeSimple.ts",
+    "className": "NodeSimple",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Template.NodeStation",
+    "tableName": "WF_NodeStation",
+    "desc": "节点角色",
+    "filePath": "src/WF/Admin/AttrNode/NodeStation.ts",
+    "className": "NodeStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Template.NodeTeam",
+    "tableName": "WF_NodeTeam",
+    "desc": "节点权限组",
+    "filePath": "src/WF/Admin/AttrNode/NodeTeam.ts",
+    "className": "NodeTeam",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Template.NodeToolbar",
+    "tableName": "WF_NodeToolbar",
+    "desc": "自定义工具栏",
+    "filePath": "src/WF/Admin/AttrNode/NodeToolbar.ts",
+    "className": "NodeToolbar",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.WF.Template.NodeWorkCheck",
+    "tableName": "WF_Node",
+    "desc": "审核组件",
+    "filePath": "src/WF/Admin/AttrNode/NodeWorkCheck.ts",
+    "className": "NodeWorkCheck",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Cond",
+    "tableName": "WF_Cond",
+    "desc": "条件",
+    "filePath": "src/WF/Admin/Cond2020/Cond.ts",
+    "className": "Cond",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Cond100",
+    "tableName": "WF_Cond",
+    "desc": "表达式",
+    "filePath": "src/WF/Admin/Cond2020/Cond100.ts",
+    "className": "Cond100",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondDept",
+    "tableName": "WF_Cond",
+    "desc": "条件-部门",
+    "filePath": "src/WF/Admin/Cond2020/CondDept.ts",
+    "className": "CondDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondEmp",
+    "tableName": "WF_Cond",
+    "desc": "条件-人员",
+    "filePath": "src/WF/Admin/Cond2020/CondEmp.ts",
+    "className": "CondEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrm",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrm.ts",
+    "className": "CondFrm",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmEnum",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrmEnum.ts",
+    "className": "CondFrmEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmEnumString",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrmEnumString.ts",
+    "className": "CondFrmEnumString",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmNum",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrmNum.ts",
+    "className": "CondFrmNum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmSFTable",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrmSFTable.ts",
+    "className": "CondFrmSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmString",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/WF/Admin/Cond2020/CondFrmString.ts",
+    "className": "CondFrmString",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondParas",
+    "tableName": "WF_Cond",
+    "desc": "条件-参数",
+    "filePath": "src/WF/Admin/Cond2020/CondParas.ts",
+    "className": "CondParas",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondProc",
+    "tableName": "WF_Cond",
+    "desc": "条件-过程Proc",
+    "filePath": "src/WF/Admin/Cond2020/CondProc.ts",
+    "className": "CondProc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondSQL",
+    "tableName": "WF_Cond",
+    "desc": "条件-SQL",
+    "filePath": "src/WF/Admin/Cond2020/CondSQL.ts",
+    "className": "CondSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondStation",
+    "tableName": "WF_Cond",
+    "desc": "条件-角色",
+    "filePath": "src/WF/Admin/Cond2020/CondStation.ts",
+    "className": "CondStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondWebApi",
+    "tableName": "WF_Cond",
+    "desc": "条件-WebApi",
+    "filePath": "src/WF/Admin/Cond2020/CondWebApi.ts",
+    "className": "CondWebApi",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondWorkCheckSelected",
+    "tableName": "WF_Cond",
+    "desc": "条件-审核组件立场",
+    "filePath": "src/WF/Admin/Cond2020/CondWorkCheckSelected.ts",
+    "className": "CondWorkCheckSelected",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Direction",
+    "tableName": "WF_Direction",
+    "desc": "方向",
+    "filePath": "src/WF/Admin/Cond2020/Direction.ts",
+    "className": "Direction",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NodeDir",
+    "tableName": "WF_Node",
+    "desc": "方向条件",
+    "filePath": "src/WF/Admin/Cond2020/NodeDir.ts",
+    "className": "NodeDir",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.FD.FlowFD",
+    "tableName": "WF_Flow",
+    "desc": "流程属性",
+    "filePath": "src/WF/Admin/FlowDesigner/FlowFD.ts",
+    "className": "FlowFD",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.FD.FlowJiJian",
+    "tableName": "WF_Flow",
+    "desc": "流程设计",
+    "filePath": "src/WF/Admin/FlowDesigner/FlowJiJian.ts",
+    "className": "FlowJiJian",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.FD.NodeFD",
+    "tableName": "WF_Node",
+    "desc": "节点属性",
+    "filePath": "src/WF/Admin/FlowDesigner/NodeFD.ts",
+    "className": "NodeFD",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.Sys.SystemSetting",
+    "tableName": "WF_Emp",
+    "desc": "系统管理",
+    "filePath": "src/WF/Admin/FlowLogic/SystemSetting.ts",
+    "className": "SystemSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.GroupField",
+    "tableName": "Sys_GroupField",
+    "desc": "分组容器",
+    "filePath": "src/WF/Admin/FrmLogic/GroupField.ts",
+    "className": "GroupField",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.FrmUI.GroupFieldDir",
+    "tableName": "Sys_GroupField",
+    "desc": "分组容器",
+    "filePath": "src/WF/Admin/FrmLogic/GroupFieldDir.ts",
+    "className": "GroupFieldDir",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.FrmUI.GroupFieldLang",
+    "tableName": "Sys_GroupField",
+    "desc": "分组容器",
+    "filePath": "src/WF/Admin/FrmLogic/GroupFieldLang.ts",
+    "className": "GroupFieldLang",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.User.MapData",
+    "tableName": "Sys_MapData",
+    "desc": "表单注册",
+    "filePath": "src/WF/Admin/FrmLogic/MapData.ts",
+    "className": "MapData",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.MapDtl",
+    "tableName": "Sys_MapDtl",
+    "desc": "明细",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl.ts",
+    "className": "MapDtl",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Frm.MapDtlLang",
+    "tableName": "Sys_MapDtl",
+    "desc": "明细",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtlLang.ts",
+    "className": "MapDtlLang",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.MapExt",
+    "tableName": "Sys_MapExt",
+    "desc": "业务逻辑",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt.ts",
+    "className": "MapExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapFrameExt",
+    "tableName": "Sys_MapFrame",
+    "desc": "框架",
+    "filePath": "src/WF/Admin/FrmLogic/MapFrameExt.ts",
+    "className": "MapFrameExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableClass",
+    "tableName": "Sys_SFTableClass",
+    "desc": "字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTableClass.ts",
+    "className": "SFTableClass",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SQLTemplate",
+    "tableName": "WF_SQLTemplate",
+    "desc": "SQL模板",
+    "filePath": "src/WF/Admin/FrmLogic/SQLTemplate.ts",
+    "className": "SQLTemplate",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.SaaS.Org",
+    "tableName": "Port_Org",
+    "desc": "组织",
+    "filePath": "src/WF/Admin/SaaS/Org.ts",
+    "className": "Org",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.SaaS.OrgAdmin",
+    "tableName": "Port_Org",
+    "desc": "组织",
+    "filePath": "src/WF/Admin/SaaS/OrgAdmin.ts",
+    "className": "OrgAdmin",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.SaaS.OrgUser",
+    "tableName": "Port_Org",
+    "desc": "组织",
+    "filePath": "src/WF/Admin/SaaS/OrgUser.ts",
+    "className": "OrgUser",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.SystemSetting",
+    "tableName": "WF_Emp",
+    "desc": "系统管理",
+    "filePath": "src/WF/Admin/System/SystemSetting.ts",
+    "className": "SystemSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.User.FrmBBS",
+    "tableName": "Frm_BBS",
+    "desc": "评论组件表",
+    "filePath": "src/WF/Comm/Components/FrmBBS.ts",
+    "className": "FrmBBS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.FrmTrack",
+    "tableName": "Frm_Track",
+    "desc": "实体日志",
+    "filePath": "src/WF/Comm/Components/FrmTrack.ts",
+    "className": "FrmTrack",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.Auth",
+    "tableName": "WF_Auth",
+    "desc": "授权",
+    "filePath": "src/WF/Comm/Setting/Auth.ts",
+    "className": "Auth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.MySetting",
+    "tableName": "WF_Emp",
+    "desc": "我的设置",
+    "filePath": "src/WF/Comm/Setting/MySetting.ts",
+    "className": "MySetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Admin.FlowAdm",
+    "tableName": "WF_Flow",
+    "desc": "流程模版",
+    "filePath": "src/WF/TSClass/Admin/FlowAdm.ts",
+    "className": "FlowAdm",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Admin.FlowSort",
+    "tableName": "WF_FlowSort",
+    "desc": "流程目录",
+    "filePath": "src/WF/TSClass/Admin/FlowSort.ts",
+    "className": "FlowSort",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Admin.FrmAdm",
+    "tableName": "Sys_MapData",
+    "desc": "表单属性",
+    "filePath": "src/WF/TSClass/Admin/FrmAdm.ts",
+    "className": "FrmAdm",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.Admin.FrmSort",
+    "tableName": "Sys_FormTree",
+    "desc": "表单目录",
+    "filePath": "src/WF/TSClass/Admin/FrmSort.ts",
+    "className": "FrmSort",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.FlowData.CCList",
+    "tableName": "WF_CCList",
+    "desc": "抄送列表",
+    "filePath": "src/WF/TSClass/FlowData/CCList.ts",
+    "className": "CCList",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FlowData.GenerWorkFlowExt",
+    "tableName": "WF_GenerWorkFlow",
+    "desc": "流程查询",
+    "filePath": "src/WF/TSClass/FlowData/GenerWorkFlowExt.ts",
+    "className": "GenerWorkFlowExt",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.FlowData.GenerWorkFlowMy",
+    "tableName": "WF_GenerWorkFlow",
+    "desc": "综合查询",
+    "filePath": "src/WF/TSClass/FlowData/GenerWorkFlowMy.ts",
+    "className": "GenerWorkFlowMy",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.FlowData.GenerWorkFlowView",
+    "tableName": "WF_GenerWorkFlow",
+    "desc": "综合查询",
+    "filePath": "src/WF/TSClass/FlowData/GenerWorkFlowView.ts",
+    "className": "GenerWorkFlowView",
+    "baseClass": "EntityWorkID"
+  },
+  {
+    "classId": "TS.FlowData.Selectaccper",
+    "tableName": "WF_Selectaccper",
+    "desc": "选择接受/抄送人信息",
+    "filePath": "src/WF/TSClass/FlowData/SelectAccper.ts",
+    "className": "SelectAccper",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.SMS",
+    "tableName": "Sys_SMS",
+    "desc": "消息",
+    "filePath": "src/WF/WorkOpt/Email/SMS.ts",
+    "className": "SMS",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.CC",
+    "tableName": "WF_WorkOpt",
+    "desc": "抄送",
+    "filePath": "src/WF/WorkOpt/SendAndCC/CC.ts",
+    "className": "CC",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.CCORShare",
+    "tableName": "WF_WorkOpt",
+    "desc": "抄送/分享",
+    "filePath": "src/WF/WorkOpt/SendAndCC/CCORShare.ts",
+    "className": "CCORShare",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.Send",
+    "tableName": "WF_WorkOpt",
+    "desc": "发送",
+    "filePath": "src/WF/WorkOpt/SendAndCC/Send.ts",
+    "className": "Send",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.SendAndCC",
+    "tableName": "WF_WorkOpt",
+    "desc": "发送",
+    "filePath": "src/WF/WorkOpt/SendAndCC/SendAndCC.ts",
+    "className": "SendAndCC",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WorkOpt.SendVSTO",
+    "tableName": "WF_WorkOpt",
+    "desc": "发送",
+    "filePath": "src/WF/WorkOpt/SendAndCC/SendVSTO.ts",
+    "className": "SendVSTO",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.HR.AgreeType",
+    "tableName": "Ed_AgreeType",
+    "desc": "协议类型",
+    "filePath": "src/App/HR/Employee/Dic/AgreeType.ts",
+    "className": "AgreeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.CertType1",
+    "tableName": "Ed_CertType1",
+    "desc": "证据类型",
+    "filePath": "src/App/HR/Employee/Dic/CertType1.ts",
+    "className": "CertType1",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.ConChangeType",
+    "tableName": "Ed_ConChangeType",
+    "desc": "合同变更类型",
+    "filePath": "src/App/HR/Employee/Dic/ConChangeType.ts",
+    "className": "ConChangeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Contract",
+    "tableName": "Ed_Contract",
+    "desc": "合同签约单位",
+    "filePath": "src/App/HR/Employee/Dic/Contract.ts",
+    "className": "Contract",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Country",
+    "tableName": "Ed_Country",
+    "desc": "国籍",
+    "filePath": "src/App/HR/Employee/Dic/Country.ts",
+    "className": "Country",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DegreeType",
+    "tableName": "Ed_DegreeType",
+    "desc": "学位",
+    "filePath": "src/App/HR/Employee/Dic/DegreeType.ts",
+    "className": "DegreeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EduType",
+    "tableName": "Ed_EduType",
+    "desc": "学历",
+    "filePath": "src/App/HR/Employee/Dic/EduType.ts",
+    "className": "EduType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpCategory",
+    "tableName": "Ed_EmpCategory",
+    "desc": "人员类别",
+    "filePath": "src/App/HR/Employee/Dic/EmpCategory.ts",
+    "className": "EmpCategory",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpChangeReason",
+    "tableName": "Ed_EmpChangeReason",
+    "desc": "人事变动原因",
+    "filePath": "src/App/HR/Employee/Dic/EmpChangeReason.ts",
+    "className": "EmpChangeReason",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpChangeType",
+    "tableName": "Ed_EmpChangeType",
+    "desc": "人事变动类型",
+    "filePath": "src/App/HR/Employee/Dic/EmpChangeType.ts",
+    "className": "EmpChangeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpCostCenter",
+    "tableName": "Ed_EmpCostCenter",
+    "desc": "员工成本中心",
+    "filePath": "src/App/HR/Employee/Dic/EmpCostCenter.ts",
+    "className": "EmpCostCenter",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpGroup",
+    "tableName": "Ed_EmpGroup",
+    "desc": "员工分组",
+    "filePath": "src/App/HR/Employee/Dic/EmpGroup.ts",
+    "className": "EmpGroup",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpProperty",
+    "tableName": "Ed_EmpProperty",
+    "desc": "人员属性",
+    "filePath": "src/App/HR/Employee/Dic/EmpProperty.ts",
+    "className": "EmpProperty",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpStatus",
+    "tableName": "Ed_EmpStatus",
+    "desc": "人员状态",
+    "filePath": "src/App/HR/Employee/Dic/EmpStatus.ts",
+    "className": "EmpStatus",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.EmpType",
+    "tableName": "Ed_EmpType",
+    "desc": "人员类型",
+    "filePath": "src/App/HR/Employee/Dic/EmpType.ts",
+    "className": "EmpType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.GradType",
+    "tableName": "Ed_GradType",
+    "desc": "毕业类型",
+    "filePath": "src/App/HR/Employee/Dic/GradType.ts",
+    "className": "GradType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Health",
+    "tableName": "Ed_Health",
+    "desc": "健康状况",
+    "filePath": "src/App/HR/Employee/Dic/Health.ts",
+    "className": "Health",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.HortationKind",
+    "tableName": "Ed_HortationKind",
+    "desc": "奖惩种类",
+    "filePath": "src/App/HR/Employee/Dic/HortationKind.ts",
+    "className": "HortationKind",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.HortationType",
+    "tableName": "Ed_HortationType",
+    "desc": "奖惩类型",
+    "filePath": "src/App/HR/Employee/Dic/HortationType.ts",
+    "className": "HortationType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.JoinSource",
+    "tableName": "Ed_JoinSource",
+    "desc": "入职来源",
+    "filePath": "src/App/HR/Employee/Dic/JoinSource.ts",
+    "className": "JoinSource",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.LanguageGrade",
+    "tableName": "Ed_LanguageGrade",
+    "desc": "熟练程度",
+    "filePath": "src/App/HR/Employee/Dic/LanguageGrade.ts",
+    "className": "LanguageGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.LanguageType",
+    "tableName": "Ed_LanguageType",
+    "desc": "语言种类",
+    "filePath": "src/App/HR/Employee/Dic/LanguageType.ts",
+    "className": "LanguageType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.LeaveReason",
+    "tableName": "Ed_LeaveReason",
+    "desc": "离职原因",
+    "filePath": "src/App/HR/Employee/Dic/LeaveReason.ts",
+    "className": "LeaveReason",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.LeaveType",
+    "tableName": "Ed_LeaveType",
+    "desc": "离职类型",
+    "filePath": "src/App/HR/Employee/Dic/LeaveType.ts",
+    "className": "LeaveType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Marriage",
+    "tableName": "Ed_Marriage",
+    "desc": "婚姻状况",
+    "filePath": "src/App/HR/Employee/Dic/Marriage.ts",
+    "className": "Marriage",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Nation",
+    "tableName": "Ed_Nation",
+    "desc": "民族",
+    "filePath": "src/App/HR/Employee/Dic/Nation.ts",
+    "className": "Nation",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.OrgChangeReason",
+    "tableName": "Ed_OrgChangeReason",
+    "desc": "组织调动原因",
+    "filePath": "src/App/HR/Employee/Dic/OrgChangeReason.ts",
+    "className": "OrgChangeReason",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.OrgChangeType",
+    "tableName": "Ed_OrgChangeType",
+    "desc": "组织调动类型",
+    "filePath": "src/App/HR/Employee/Dic/OrgChangeType.ts",
+    "className": "OrgChangeType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Party",
+    "tableName": "Ed_Party",
+    "desc": "政治面貌",
+    "filePath": "src/App/HR/Employee/Dic/Party.ts",
+    "className": "Party",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Place",
+    "tableName": "Ed_Place",
+    "desc": "籍贯",
+    "filePath": "src/App/HR/Employee/Dic/Place.ts",
+    "className": "Place",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.ProbResult",
+    "tableName": "Ed_ProbResult",
+    "desc": "转正结果",
+    "filePath": "src/App/HR/Employee/Dic/ProbResult.ts",
+    "className": "ProbResult",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Relation",
+    "tableName": "Ed_Relation",
+    "desc": "关系称谓",
+    "filePath": "src/App/HR/Employee/Dic/Relation.ts",
+    "className": "Relation",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Resident",
+    "tableName": "Ed_Resident",
+    "desc": "人员类型",
+    "filePath": "src/App/HR/Employee/Dic/Resident.ts",
+    "className": "Resident",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.StudyType",
+    "tableName": "Ed_StudyType",
+    "desc": "学习形式",
+    "filePath": "src/App/HR/Employee/Dic/StudyType.ts",
+    "className": "StudyType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Title",
+    "tableName": "Ed_Title",
+    "desc": "职称",
+    "filePath": "src/App/HR/Employee/Dic/Title.ts",
+    "className": "Title",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.TitleGrade",
+    "tableName": "Ed_TitleGrade",
+    "desc": "职称级别",
+    "filePath": "src/App/HR/Employee/Dic/TitleGrade.ts",
+    "className": "TitleGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.TitleType",
+    "tableName": "Ed_TitleType",
+    "desc": "职称类型",
+    "filePath": "src/App/HR/Employee/Dic/TitleType.ts",
+    "className": "TitleType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.TrainKind",
+    "tableName": "Ed_TrainKind",
+    "desc": "培训形式",
+    "filePath": "src/App/HR/Employee/Dic/TrainKind.ts",
+    "className": "TrainKind",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.TrainType",
+    "tableName": "Ed_TrainType",
+    "desc": "培训类型",
+    "filePath": "src/App/HR/Employee/Dic/TrainType.ts",
+    "className": "TrainType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.Area",
+    "tableName": "Org_Area",
+    "desc": "公司区域",
+    "filePath": "src/App/HR/Organization/Dic/Area.ts",
+    "className": "Area",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DeptCostcenter",
+    "tableName": "Org_DeptCostcenter",
+    "desc": "成本中心",
+    "filePath": "src/App/HR/Organization/Dic/DeptCostcenter.ts",
+    "className": "DeptCostcenter",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DeptCostcenter",
+    "tableName": "Org_DeptCostcenter",
+    "desc": "部门级别",
+    "filePath": "src/App/HR/Organization/Dic/DeptGrade copy.ts",
+    "className": "DeptCostcenter",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DeptGrade",
+    "tableName": "Org_DeptGrade",
+    "desc": "部门级别",
+    "filePath": "src/App/HR/Organization/Dic/DeptGrade.ts",
+    "className": "DeptGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DeptProperty",
+    "tableName": "Org_DeptProperty",
+    "desc": "部门类别",
+    "filePath": "src/App/HR/Organization/Dic/DeptProperty.ts",
+    "className": "DeptProperty",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.DeptType",
+    "tableName": "Org_DeptType",
+    "desc": "部门类型",
+    "filePath": "src/App/HR/Organization/Dic/DeptType.ts",
+    "className": "DeptType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.JobGrade",
+    "tableName": "Org_JobGrade",
+    "desc": "职位级别",
+    "filePath": "src/App/HR/Organization/Dic/JobGrade.ts",
+    "className": "JobGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.JobProperty",
+    "tableName": "Org_JobProperty",
+    "desc": "职位类别",
+    "filePath": "src/App/HR/Organization/Dic/JobProperty.ts",
+    "className": "JobProperty",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.JobType",
+    "tableName": "Org_JobType",
+    "desc": "职位类型",
+    "filePath": "src/App/HR/Organization/Dic/JobType.ts",
+    "className": "JobType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.OrgGrade",
+    "tableName": "Org_OrgGrade",
+    "desc": "单位级别",
+    "filePath": "src/App/HR/Organization/Dic/OrgGrade.ts",
+    "className": "OrgGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.OrgType",
+    "tableName": "Org_OrgType",
+    "desc": "单位类型",
+    "filePath": "src/App/HR/Organization/Dic/OrgType.ts",
+    "className": "OrgType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.PositionGrade",
+    "tableName": "Org_PositionGrade",
+    "desc": "部门级别",
+    "filePath": "src/App/HR/Organization/Dic/PositionGrade.ts",
+    "className": "PositionGrade",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.PositionProperty",
+    "tableName": "Org_PositionProperty",
+    "desc": "部门级别",
+    "filePath": "src/App/HR/Organization/Dic/PositionProperty.ts",
+    "className": "PositionProperty",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.HR.PositionType",
+    "tableName": "Org_PositionType",
+    "desc": "单位级别",
+    "filePath": "src/App/HR/Organization/Dic/PositionType.ts",
+    "className": "PositionType",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template.Daily",
+    "tableName": "TA_Template",
+    "desc": "项目模版",
+    "filePath": "src/App/TA/TSClass/Template/Daily.ts",
+    "className": "Daily",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template.DailyItem",
+    "tableName": "TA_TemplateNode",
+    "desc": "执行内容",
+    "filePath": "src/App/TA/TSClass/Template/DailyItem.ts",
+    "className": "DailyItem",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.TA.Template.Section",
+    "tableName": "TA_Template",
+    "desc": "阶段固定模式项目",
+    "filePath": "src/App/TA/TSClass/Template/Section.ts",
+    "className": "Section",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template.SectionItem",
+    "tableName": "TA_TemplateNode",
+    "desc": "执行内容",
+    "filePath": "src/App/TA/TSClass/Template/SectionItem.ts",
+    "className": "SectionItem",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template.Sort",
+    "tableName": "TA_Sort",
+    "desc": "模板目录",
+    "filePath": "src/App/TA/TSClass/Template/Sort.ts",
+    "className": "Sort",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.TA.Template.TaskTree",
+    "tableName": "TA_Template",
+    "desc": "任务树",
+    "filePath": "src/App/TA/TSClass/Template/TaskTree.ts",
+    "className": "TaskTree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template",
+    "tableName": "TA_Template",
+    "desc": "项目模版",
+    "filePath": "src/App/TA/TSClass/Template/Template.ts",
+    "className": "Template",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.TA.Template.TemplateNode",
+    "tableName": "TA_TemplateNode",
+    "desc": "模板节点",
+    "filePath": "src/App/TA/TSClass/Template/TemplateNode.ts",
+    "className": "TemplateNode",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.TA.TaskCheckReturn",
+    "tableName": "TA_Task",
+    "desc": "审核退回",
+    "filePath": "src/App/TA/TSClass/WorkOpt/TaskCheckReturn.ts",
+    "className": "TaskCheckReturn",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.TaskCheckSubmit",
+    "tableName": "TA_Task",
+    "desc": "审核任务",
+    "filePath": "src/App/TA/TSClass/WorkOpt/TaskCheckSubmit.ts",
+    "className": "TaskCheckSubmit",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.TaskHuiBao",
+    "tableName": "TA_Task",
+    "desc": "汇报工作任务",
+    "filePath": "src/App/TA/TSClass/WorkOpt/TaskHuiBao.ts",
+    "className": "TaskHuiBao",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.TaskReturn",
+    "tableName": "TA_Task",
+    "desc": "任务退回",
+    "filePath": "src/App/TA/TSClass/WorkOpt/TaskReturn.ts",
+    "className": "TaskReturn",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.TA.TaskShift",
+    "tableName": "TA_Task",
+    "desc": "任务移交",
+    "filePath": "src/App/TA/TSClass/WorkOpt/TaskShift.ts",
+    "className": "TaskShift",
+    "baseClass": "EntityOID"
+  },
+  {
+    "classId": "TS.CCBill.Admin.MapExtMobileSearchCol",
+    "tableName": "Sys_MapExt",
+    "desc": "字段列显示",
+    "filePath": "src/CCFast/CCBill/Admin/ShowCol/MapExtMobileSearchCol.ts",
+    "className": "MapExtMobileSearchCol",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.Admin.MapExtSearchCol",
+    "tableName": "Sys_MapExt",
+    "desc": "字段列显示",
+    "filePath": "src/CCFast/CCBill/Admin/ShowCol/MapExtSearchCol.ts",
+    "className": "MapExtSearchCol",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.SearchFKEnum",
+    "tableName": "Frm_SearchFKEnum",
+    "desc": "查询条件",
+    "filePath": "src/CCFast/CCBill/Admin/SearchCond/SearchFKEnum.ts",
+    "className": "SearchFKEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.User.FrmBBS",
+    "tableName": "Frm_BBS",
+    "desc": "评论组件表",
+    "filePath": "src/CCFast/CCBill/Components/FrmBBS/FrmBBS.ts",
+    "className": "FrmBBS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.Rpt3D",
+    "tableName": "GPM_Menu",
+    "desc": "三维报表",
+    "filePath": "src/CCFast/CCBill/Components/Rpt3D/Rpt3D.ts",
+    "className": "Rpt3D",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCFast.RptBlue",
+    "tableName": "GPM_Menu",
+    "desc": "蓝色大屏",
+    "filePath": "src/CCFast/CCBill/Components/RptBlue/RptBlue.ts",
+    "className": "RptBlue",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.CCBill.RecReadonly",
+    "tableName": "Frm_DBRole",
+    "desc": "数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonly.ts",
+    "className": "RecReadonly",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.RecReadonlyField",
+    "tableName": "Frm_DBRole",
+    "desc": "按照字段值计算",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonlyField.ts",
+    "className": "RecReadonlyField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.CondFrmEnum",
+    "tableName": "WF_Cond",
+    "desc": "表单条件",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonlyFieldEnum.ts",
+    "className": "CondFrmEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.RecReadonlyFieldEnum",
+    "tableName": "Frm_DBRole",
+    "desc": "表单条件",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonlyFieldNum.ts",
+    "className": "RecReadonlyFieldEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.RecReadonlyFieldString",
+    "tableName": "Frm_DBRole",
+    "desc": "表单条件",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonlyFieldString.ts",
+    "className": "RecReadonlyFieldString",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.CCBill.RecReadonlySQL",
+    "tableName": "Frm_DBRole",
+    "desc": "岗位数据权限",
+    "filePath": "src/CCFast/CCBill/DBRole/RecReadonly/RecReadonlySQL.ts",
+    "className": "RecReadonlySQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.GPM.RuoYiMenu",
+    "tableName": "Sys_Menu",
+    "desc": "菜单",
+    "filePath": "src/CCFast/GPM/CCMenu/third/RuoYiMenu.ts",
+    "className": "RuoYiMenu",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrFlow.DeadLineRole1",
+    "tableName": "WF_Flow",
+    "desc": "限期完成时限规则",
+    "filePath": "src/WF/Admin/AttrFlow/DeadLineRole/DeadLineRole1.ts",
+    "className": "DeadLineRole1",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrFlow.AutoStartEn5",
+    "tableName": "WF_Flow",
+    "desc": "自动发起设置",
+    "filePath": "src/WF/Admin/AttrFlow/AutoStart/AutoStartEn5.ts",
+    "className": "AutoStartEn5",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrFlow.GovDocTemplate",
+    "tableName": "WF_Part",
+    "desc": "公文模板",
+    "filePath": "src/WF/Admin/AttrFlow/GovDoc/GovDocTemplate.ts",
+    "className": "GovDocTemplate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.FlowRptSetting",
+    "tableName": "Sys_MapData",
+    "desc": "设计",
+    "filePath": "src/WF/Admin/AttrFlow/Rpt/FlowRptSetting.ts",
+    "className": "FlowRptSetting",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrFlow.StarGuideBySQLMulti",
+    "tableName": "WF_Flow",
+    "desc": "按设置的SQL-单条模式",
+    "filePath": "src/WF/Admin/AttrFlow/StartGuide/StarGuideBySQLMulti.ts",
+    "className": "StarGuideBySQLMulti",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrFlow.StartGuideBySQLOne",
+    "tableName": "WF_Flow",
+    "desc": "按设置的SQL-单条模式",
+    "filePath": "src/WF/Admin/AttrFlow/StartGuide/StartGuideBySQLOne.ts",
+    "className": "StartGuideBySQLOne",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrFlow.SyncData",
+    "tableName": "WF_SyncData",
+    "desc": "数据同步",
+    "filePath": "src/WF/Admin/AttrFlow/SyncData/SyncData.ts",
+    "className": "SyncData",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrFlow.SyncDataByAPI",
+    "tableName": "WF_SyncData",
+    "desc": "同步到API",
+    "filePath": "src/WF/Admin/AttrFlow/SyncData/SyncDataByAPI.ts",
+    "className": "SyncDataByAPI",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrFlow.SyncDataByDBSrc",
+    "tableName": "WF_SyncData",
+    "desc": "同步到数据库",
+    "filePath": "src/WF/Admin/AttrFlow/SyncData/SyncDataByDBSrc.ts",
+    "className": "SyncDataByDBSrc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrFlow.SyncDataField",
+    "tableName": "WF_SyncDataField",
+    "desc": "字段同步",
+    "filePath": "src/WF/Admin/AttrFlow/SyncData/SyncDataField.ts",
+    "className": "SyncDataField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.GPENodeBatchRole1",
+    "tableName": "WF_Node",
+    "desc": "审核组件模式",
+    "filePath": "src/WF/Admin/AttrNode/BatchRole/GPENodeBatchRole1.ts",
+    "className": "GPENodeBatchRole1",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.GPENodeBatchRole2",
+    "tableName": "WF_Node",
+    "desc": "审核字段分组模式",
+    "filePath": "src/WF/Admin/AttrNode/BatchRole/GPENodeBatchRole2.ts",
+    "className": "GPENodeBatchRole2",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindDept",
+    "tableName": "WF_Node",
+    "desc": "绑定部门",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindDept.ts",
+    "className": "AccepterRoleBindDept",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindDeptOrg",
+    "tableName": "WF_Node",
+    "desc": "绑定部门",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindDeptOrg.ts",
+    "className": "AccepterRoleBindDeptOrg",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindDeptStation",
+    "tableName": "WF_Node",
+    "desc": "绑定部门角色",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindDeptStation.ts",
+    "className": "AccepterRoleBindDeptStation",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindEmp",
+    "tableName": "WF_Node",
+    "desc": "绑定人员",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindEmp.ts",
+    "className": "AccepterRoleBindEmp",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindSFTable",
+    "tableName": "WF_Node",
+    "desc": "绑定字典",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindSFTable.ts",
+    "className": "AccepterRoleBindSFTable",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleBindStation",
+    "tableName": "WF_Node",
+    "desc": "绑定角色",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleBindStation.ts",
+    "className": "AccepterRoleBindStation",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleByEmpsFrmDtl",
+    "tableName": "WF_Node",
+    "desc": "从表里的人员编号字段",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleByEmpsFrmDtl.ts",
+    "className": "AccepterRoleByEmpsFrmDtl",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleEn0",
+    "tableName": "WF_Node",
+    "desc": "表单方案",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleEn0.ts",
+    "className": "AccepterRoleEn0",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AccepterRoleMLeader",
+    "tableName": "WF_Node",
+    "desc": "连续多级主管",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AccepterRoleMLeader.ts",
+    "className": "AccepterRoleMLeader",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.AR501",
+    "tableName": "WF_Node",
+    "desc": "直接上级",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/AR501.ts",
+    "className": "AR501",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.ARBindStationSpecDept",
+    "tableName": "WF_Node",
+    "desc": "按指定的部门集合与设置的角色交集计算",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/ARBindStationSpecDept.ts",
+    "className": "ARBindStationSpecDept",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.ARBindStationSpecSta",
+    "tableName": "WF_Node",
+    "desc": "按指定的岗位集合与设置的部门交集计算",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/ARBindStationSpecSta.ts",
+    "className": "ARBindStationSpecSta",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.ARBindWebApi",
+    "tableName": "WF_Part",
+    "desc": "绑定WebApi",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/ARBindWebApi.ts",
+    "className": "ARBindWebApi",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.ARStation",
+    "tableName": "WF_Node",
+    "desc": "绑定角色",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/ARStation.ts",
+    "className": "ARStation",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.ARWebAPI",
+    "tableName": "WF_Node",
+    "desc": "绑定WebAPI",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/ARWebAPI.ts",
+    "className": "ARWebAPI",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.RouteAttr2Emp",
+    "tableName": "WF_Node",
+    "desc": "",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/RouteAttr2Emp.ts",
+    "className": "RouteAttr2Emp",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.SelecterFix",
+    "tableName": "WF_Node",
+    "desc": "人员选择器",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/SelecterFix.ts",
+    "className": "SelecterFix",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.SelecterFree",
+    "tableName": "WF_Node",
+    "desc": "自由选择(海选)",
+    "filePath": "src/WF/Admin/AttrNode/AccepterRole/SelecterFree.ts",
+    "className": "SelecterFree",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.AttrNode.CCNode",
+    "tableName": "WF_Node",
+    "desc": "抄送规则",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCNode.ts",
+    "className": "CCNode",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.AttrNode.CCRole",
+    "tableName": "WF_CCRole",
+    "desc": "抄送规则",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRole.ts",
+    "className": "CCRole",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.CCRoleByDeliveryWay",
+    "tableName": "WF_CCRole",
+    "desc": "按照接受人规则计算",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleByDeliveryWay.ts",
+    "className": "CCRoleByDeliveryWay",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.CCRoleByDept",
+    "tableName": "WF_CCRole",
+    "desc": "按部门抄送",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleByDept.ts",
+    "className": "CCRoleByDept",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.CCRoleByEmp",
+    "tableName": "WF_CCRole",
+    "desc": "按人员抄送",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleByEmp.ts",
+    "className": "CCRoleByEmp",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.CCRoleByField",
+    "tableName": "WF_CCRole",
+    "desc": "按字段抄送",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleByField.ts",
+    "className": "CCRoleByField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.CCRoleBySQL",
+    "tableName": "WF_CCRole",
+    "desc": "按SQL抄送",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleBySQL.ts",
+    "className": "CCRoleBySQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.CCRoleByStation",
+    "tableName": "WF_CCRole",
+    "desc": "按角色抄送",
+    "filePath": "src/WF/Admin/AttrNode/CCRole/CCRoleByStation.ts",
+    "className": "CCRoleByStation",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.EvaluationRole1",
+    "tableName": "WF_Node",
+    "desc": "固定时效考核",
+    "filePath": "src/WF/Admin/AttrNode/EvaluationRole/EvaluationRole1.ts",
+    "className": "EvaluationRole1",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.EvaluationRole4",
+    "tableName": "WF_Node",
+    "desc": "指定字段的时间考核",
+    "filePath": "src/WF/Admin/AttrNode/EvaluationRole/EvaluationRole4.ts",
+    "className": "EvaluationRole4",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.EntityTSForm",
+    "tableName": "WF_Node",
+    "desc": "EntityTS高代码",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/EntityTSForm.ts",
+    "className": "EntityTSForm",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNode",
+    "tableName": "WF_FrmNode",
+    "desc": "节点表单属性",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/FrmNode.ts",
+    "className": "FrmNode",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.FrmSlnEn0",
+    "tableName": "WF_Node",
+    "desc": "表单方案",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/FrmSlnEn0.ts",
+    "className": "FrmSlnEn0",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeFWC",
+    "tableName": "WF_Node",
+    "desc": "审核组件状态-批量修改",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/NodeFWC.ts",
+    "className": "NodeFWC",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.SelfFormEn",
+    "tableName": "WF_Node",
+    "desc": "URL参数",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/SelfFormEn.ts",
+    "className": "SelfFormEn",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.Sln0",
+    "tableName": "WF_Node",
+    "desc": "内置-经典表单",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln0.ts",
+    "className": "Sln0",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NMBySQL",
+    "tableName": "WF_PushMsg",
+    "desc": "节点消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/NMBySQL.ts",
+    "className": "NMBySQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NMField",
+    "tableName": "WF_PushMsg",
+    "desc": "节点消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/NMField.ts",
+    "className": "NMField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NMGener",
+    "tableName": "WF_PushMsg",
+    "desc": "节点消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/NMGener.ts",
+    "className": "NMGener",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NMNodeWorker",
+    "tableName": "WF_PushMsg",
+    "desc": "节点消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/NMNodeWorker.ts",
+    "className": "NMNodeWorker",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NMSpecEmpNo",
+    "tableName": "WF_PushMsg",
+    "desc": "节点消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/NMSpecEmpNo.ts",
+    "className": "NMSpecEmpNo",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.PushMsg",
+    "tableName": "WF_PushMsg",
+    "desc": "消息",
+    "filePath": "src/WF/Admin/AttrNode/NodeMsg/PushMsg.ts",
+    "className": "PushMsg",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.Template.FrmTransferCustom",
+    "tableName": "WF_Node",
+    "desc": "流转自定义",
+    "filePath": "src/WF/Admin/AttrNode/FrmTransfer/FrmTransferCustom.ts",
+    "className": "FrmTransferCustom",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.SFlow.SubFlow",
+    "tableName": "WF_NodeSubFlow",
+    "desc": "子流程",
+    "filePath": "src/WF/Admin/AttrNode/SubFlow/SubFlow.ts",
+    "className": "SubFlow",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.SFlow.SubFlowAuto",
+    "tableName": "WF_NodeSubFlow",
+    "desc": "自动启动子流程",
+    "filePath": "src/WF/Admin/AttrNode/SubFlow/SubFlowAuto.ts",
+    "className": "SubFlowAuto",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.SFlow.SubFlowGuide",
+    "tableName": "WF_NodeSubFlow",
+    "desc": "前置导航子流程",
+    "filePath": "src/WF/Admin/AttrNode/SubFlow/SubFlowGuide.ts",
+    "className": "SubFlowGuide",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.SFlow.SubFlowHand",
+    "tableName": "WF_NodeSubFlow",
+    "desc": "手工启动子流程",
+    "filePath": "src/WF/Admin/AttrNode/SubFlow/SubFlowHand.ts",
+    "className": "SubFlowHand",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.SFlow.SubFlowYanXu",
+    "tableName": "WF_NodeSubFlow",
+    "desc": "延续子流程",
+    "filePath": "src/WF/Admin/AttrNode/SubFlow/SubFlowYanXu.ts",
+    "className": "SubFlowYanXu",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.WF.NodeDirCondition",
+    "tableName": "WF_Node",
+    "desc": "方向条件",
+    "filePath": "src/WF/Admin/Cond2020/db/NodeDirCondition.ts",
+    "className": "NodeDirCondition",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.NodeExtCond",
+    "tableName": "WF_Node",
+    "desc": "节点属性",
+    "filePath": "src/WF/Admin/Cond2020/db/NodeExtCond.ts",
+    "className": "NodeExtCond",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.WF.FlowOrg",
+    "tableName": "WF_FlowOrg",
+    "desc": "组织流程对应",
+    "filePath": "src/WF/Admin/FlowLogic/ShareFlow/FlowOrg.ts",
+    "className": "FlowOrg",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.BillRefLink",
+    "tableName": "Sys_MapAttr",
+    "desc": "关联流程单据",
+    "filePath": "src/WF/Admin/FrmLogic/Components/BillRefLink.ts",
+    "className": "BillRefLink",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.ExtAthSingle",
+    "tableName": "Sys_MapAttr",
+    "desc": "字段单附件",
+    "filePath": "src/WF/Admin/FrmLogic/Components/ExtAthSingle.ts",
+    "className": "ExtAthSingle",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.ExtMap",
+    "tableName": "Sys_MapAttr",
+    "desc": "地图",
+    "filePath": "src/WF/Admin/FrmLogic/Components/ExtMap.ts",
+    "className": "ExtMap",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.ExtScore",
+    "tableName": "Sys_MapAttr",
+    "desc": "评分",
+    "filePath": "src/WF/Admin/FrmLogic/Components/ExtScore.ts",
+    "className": "ExtScore",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.FlowBBS",
+    "tableName": "Sys_MapAttr",
+    "desc": "流程评论",
+    "filePath": "src/WF/Admin/FrmLogic/Components/FlowBBS.ts",
+    "className": "FlowBBS",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.FlowRefLink",
+    "tableName": "Sys_MapAttr",
+    "desc": "关联流程单据",
+    "filePath": "src/WF/Admin/FrmLogic/Components/FlowRefLink.ts",
+    "className": "FlowRefLink",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.FrmBtn",
+    "tableName": "Sys_MapAttr",
+    "desc": "按钮",
+    "filePath": "src/WF/Admin/FrmLogic/Components/FrmBtn.ts",
+    "className": "FrmBtn",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.FrmHtml",
+    "tableName": "Sys_MapExt",
+    "desc": "大块文本说明",
+    "filePath": "src/WF/Admin/FrmLogic/Components/FrmHtml.ts",
+    "className": "FrmHtml",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.FrmLink",
+    "tableName": "Sys_MapAttr",
+    "desc": "超连接",
+    "filePath": "src/WF/Admin/FrmLogic/Components/FrmLink.ts",
+    "className": "FrmLink",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.GovAth",
+    "tableName": "Sys_MapAttr",
+    "desc": "VSTO公文组件",
+    "filePath": "src/WF/Admin/FrmLogic/Components/GovAth.ts",
+    "className": "GovAth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.Location",
+    "tableName": "Sys_MapAttr",
+    "desc": "系统定位",
+    "filePath": "src/WF/Admin/FrmLogic/Components/Location.ts",
+    "className": "Location",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.MapAttrCard",
+    "tableName": "Sys_MapAttr",
+    "desc": "证件",
+    "filePath": "src/WF/Admin/FrmLogic/Components/MapAttrCard.ts",
+    "className": "MapAttrCard",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.SignCheck",
+    "tableName": "Sys_MapAttr",
+    "desc": "签批组件",
+    "filePath": "src/WF/Admin/FrmLogic/Components/SignCheck.ts",
+    "className": "SignCheck",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.DtlImpEn1",
+    "tableName": "Sys_MapExt",
+    "desc": "从表导入",
+    "filePath": "src/WF/Admin/FrmLogic/DtlSetting/DtlImpEn1.ts",
+    "className": "DtlImpEn1",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.DtlImpEn3",
+    "tableName": "Sys_MapExt",
+    "desc": "从表导入",
+    "filePath": "src/WF/Admin/FrmLogic/DtlSetting/DtlImpEn3.ts",
+    "className": "DtlImpEn3",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.DtlImpEn4",
+    "tableName": "Sys_MapExt",
+    "desc": "从表导入",
+    "filePath": "src/WF/Admin/FrmLogic/DtlSetting/DtlImpEn4.ts",
+    "className": "DtlImpEn4",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.DtlTreeEns",
+    "tableName": "Sys_MapExt",
+    "desc": "从表导入",
+    "filePath": "src/WF/Admin/FrmLogic/DtlSetting/DtlTreeEns.ts",
+    "className": "DtlTreeEns",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.FrmAttachment",
+    "tableName": "Sys_FrmAttachment",
+    "desc": "附件",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmAttachment.ts",
+    "className": "FrmAttachment",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.FrmAttachmentDB",
+    "tableName": "Sys_FrmAttachmentDB",
+    "desc": "附件数据存储",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmAttachmentDB.ts",
+    "className": "FrmAttachmentDB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmAttachmentExt",
+    "tableName": "Sys_FrmAttachment",
+    "desc": "附件",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmAttachmentExt.ts",
+    "className": "FrmAttachmentExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmAttachmentLang",
+    "tableName": "Sys_FrmAttachment",
+    "desc": "附件",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmAttachmentLang.ts",
+    "className": "FrmAttachmentLang",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmAttachmentSingle",
+    "tableName": "Sys_FrmAttachment",
+    "desc": "字段单附件",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmAttachmentSingle.ts",
+    "className": "FrmAttachmentSingle",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmHandWriting",
+    "tableName": "Sys_MapAttr",
+    "desc": "手写签名版",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmHandWriting.ts",
+    "className": "FrmHandWriting",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmImg",
+    "tableName": "Sys_MapAttr",
+    "desc": "装饰图片",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/FrmImg.ts",
+    "className": "FrmImg",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SelfCommonent.GovAth",
+    "tableName": "Sys_MapAttr",
+    "desc": "VSTO公文组件",
+    "filePath": "src/WF/Admin/FrmLogic/FrmAttachment/MapAttrGovDocFile.ts",
+    "className": "GovAth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.FrmEleDB",
+    "tableName": "Sys_FrmEleDB",
+    "desc": "表单元素扩展DB",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/FrmEleDB.ts",
+    "className": "FrmEleDB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.FrmImgAth",
+    "tableName": "Sys_FrmImgAth",
+    "desc": "图片附件",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/FrmImgAth.ts",
+    "className": "FrmImgAth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.FrmRB",
+    "tableName": "Sys_FrmRB",
+    "desc": "单选框",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/FrmRB.ts",
+    "className": "FrmRB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.MapAttr",
+    "tableName": "Sys_MapAttr",
+    "desc": "字段属性",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttr.ts",
+    "className": "MapAttr",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrBoolean",
+    "tableName": "Sys_MapAttr",
+    "desc": "Boolean字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrBoolean.ts",
+    "className": "MapAttrBoolean",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrDataView",
+    "tableName": "Sys_MapAttr",
+    "desc": "数据视图",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrDataView.ts",
+    "className": "MapAttrDataView",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrDT",
+    "tableName": "Sys_MapAttr",
+    "desc": "日期字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrDT.ts",
+    "className": "MapAttrDT",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrEnum",
+    "tableName": "Sys_MapAttr",
+    "desc": "枚举字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrEnum.ts",
+    "className": "MapAttrEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrGener",
+    "tableName": "Sys_MapAttr",
+    "desc": "字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrGener.ts",
+    "className": "MapAttrGener",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrLang",
+    "tableName": "Sys_MapAttr",
+    "desc": "字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrLang.ts",
+    "className": "MapAttrLang",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrNum",
+    "tableName": "Sys_MapAttr",
+    "desc": "数值字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrNum.ts",
+    "className": "MapAttrNum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrSFSQL",
+    "tableName": "Sys_MapAttr",
+    "desc": "外部数据源字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrSFSQL.ts",
+    "className": "MapAttrSFSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrSFTable",
+    "tableName": "Sys_MapAttr",
+    "desc": "外键字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrSFTable.ts",
+    "className": "MapAttrSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapAttrString",
+    "tableName": "Sys_MapAttr",
+    "desc": "文本字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapAttrs/MapAttrString.ts",
+    "className": "MapAttrString",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrDT",
+    "tableName": "Sys_MapAttr",
+    "desc": "日期字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrDT.ts",
+    "className": "AttrDT",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrEnum",
+    "tableName": "Sys_MapAttr",
+    "desc": "枚举字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrEnum.ts",
+    "className": "AttrEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrHide",
+    "tableName": "Sys_MapAttr",
+    "desc": "隐藏字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrHide.ts",
+    "className": "AttrHide",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrNum",
+    "tableName": "Sys_MapAttr",
+    "desc": "数值字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrNum.ts",
+    "className": "AttrNum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrSFSQL",
+    "tableName": "Sys_MapAttr",
+    "desc": "外部数据源",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrSFSQL.ts",
+    "className": "AttrSFSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrSFTable",
+    "tableName": "Sys_MapAttr",
+    "desc": "外键字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrSFTable.ts",
+    "className": "AttrSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.AttrString",
+    "tableName": "Sys_MapAttr",
+    "desc": "文本字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/AttrString.ts",
+    "className": "AttrString",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Frm.MapFrmFool",
+    "tableName": "Sys_MapData",
+    "desc": "表单属性",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/MapFrmFool.ts",
+    "className": "MapFrmFool",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Frm.MapDtlExt",
+    "tableName": "Sys_MapDtl",
+    "desc": "从表属性",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl/MapDtlExt.ts",
+    "className": "MapDtlExt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFApiPara",
+    "tableName": "Sys_SFApiPara",
+    "desc": "WebApi数据源参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFDBSrc/SFApiPara.ts",
+    "className": "SFApiPara",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SFDBSrc",
+    "tableName": "Sys_SFDBSrc",
+    "desc": "数据源",
+    "filePath": "src/WF/Admin/FrmLogic/SFDBSrc/SFDBSrc.ts",
+    "className": "SFDBSrc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.SFDBSrcLocal",
+    "tableName": "Sys_SFDBSrc",
+    "desc": "本机数据源",
+    "filePath": "src/WF/Admin/FrmLogic/SFDBSrc/SFDBSrcLocal.ts",
+    "className": "SFDBSrcLocal",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.SFDBSrcSQL",
+    "tableName": "Sys_SFDBSrc",
+    "desc": "SQL数据源",
+    "filePath": "src/WF/Admin/FrmLogic/SFDBSrc/SFDBSrcSQL.ts",
+    "className": "SFDBSrcSQL",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Sys.SFDBSrcWebApi",
+    "tableName": "Sys_SFDBSrc",
+    "desc": "WebApi数据源",
+    "filePath": "src/WF/Admin/FrmLogic/SFDBSrc/SFDBSrcWebApi.ts",
+    "className": "SFDBSrcWebApi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.MapExt.TBCascader",
+    "tableName": "Sys_MapExt",
+    "desc": "级联数据源",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/TBCascader.ts",
+    "className": "TBCascader",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.TextAreaFullBlank",
+    "tableName": "Sys_MapExt",
+    "desc": "级联数据源",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/TextAreaFullBlank.ts",
+    "className": "TextAreaFullBlank",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.FrmPrintDB",
+    "tableName": "Sys_FrmPrintDB",
+    "desc": "打印模板",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/FrmPrintDB.ts",
+    "className": "FrmPrintDB",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.FrmPrintTemplate",
+    "tableName": "Sys_FrmPrintTemplate",
+    "desc": "打印模板",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/FrmPrintTemplate.ts",
+    "className": "FrmPrintTemplate",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PrintTemplateRTF",
+    "tableName": "Sys_FrmPrintTemplate",
+    "desc": "RTF模板",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PrintTemplateRTF.ts",
+    "className": "PrintTemplateRTF",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PrintTemplateVSTOExcel",
+    "tableName": "Sys_FrmPrintTemplate",
+    "desc": "VSTOExcel模板",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PrintTemplateVSTOExcel.ts",
+    "className": "PrintTemplateVSTOExcel",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PrintTemplateVSTOWord",
+    "tableName": "Sys_FrmPrintTemplate",
+    "desc": "VSTOExcel模板",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PrintTemplateVSTOWord.ts",
+    "className": "PrintTemplateVSTOWord",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PTDBSrc",
+    "tableName": "Sys_FrmPrintTemplateDBSrc",
+    "desc": "打印数据源",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PTDBSrc.ts",
+    "className": "PTDBSrc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PTDBSrcBill",
+    "tableName": "Sys_FrmPrintTemplateDBSrc",
+    "desc": "单据数据源",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PTDBSrcBill.ts",
+    "className": "PTDBSrcBill",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PTDBSrcSearch",
+    "tableName": "Sys_FrmPrintTemplateDBSrc",
+    "desc": "查询",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PTDBSrcSearch.ts",
+    "className": "PTDBSrcSearch",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.Printer.PTDBSrcSQL",
+    "tableName": "Sys_FrmPrintTemplateDBSrc",
+    "desc": "SQL数据源",
+    "filePath": "src/WF/Admin/FrmLogic/PrintTemplate/PTDBSrcSQL.ts",
+    "className": "PTDBSrcSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFParaSln",
+    "tableName": "Sys_SFParaSln",
+    "desc": "转化方案",
+    "filePath": "src/WF/Admin/FrmLogic/SFProc/SFParaSln.ts",
+    "className": "SFParaSln",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFProc",
+    "tableName": "Sys_SFProc",
+    "desc": "过程",
+    "filePath": "src/WF/Admin/FrmLogic/SFProc/SFProc.ts",
+    "className": "SFProc",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFProcSQL",
+    "tableName": "Sys_SFProc",
+    "desc": "SQL过程",
+    "filePath": "src/WF/Admin/FrmLogic/SFProc/SFProcSQL.ts",
+    "className": "SFProcSQL",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFProcWebApi",
+    "tableName": "Sys_SFProc",
+    "desc": "WebApi过程",
+    "filePath": "src/WF/Admin/FrmLogic/SFProc/SFProcWebApi.ts",
+    "className": "SFProcWebApi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFColumn",
+    "tableName": "Sys_SFColumn",
+    "desc": "参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFSearch/SFColumn.ts",
+    "className": "SFColumn",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFColumnSln",
+    "tableName": "Sys_SFColumnSln",
+    "desc": "转化方案",
+    "filePath": "src/WF/Admin/FrmLogic/SFSearch/SFColumnSln.ts",
+    "className": "SFColumnSln",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFSearch",
+    "tableName": "Sys_SFSearch",
+    "desc": "查询",
+    "filePath": "src/WF/Admin/FrmLogic/SFSearch/SFSearch.ts",
+    "className": "SFSearch",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFSearchSQL",
+    "tableName": "Sys_SFSearch",
+    "desc": "SQL查询",
+    "filePath": "src/WF/Admin/FrmLogic/SFSearch/SFSearchSQL.ts",
+    "className": "SFSearchSQL",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFSearchWebApi",
+    "tableName": "Sys_SFSearch",
+    "desc": "WebApi查询",
+    "filePath": "src/WF/Admin/FrmLogic/SFSearch/SFSearchWebApi.ts",
+    "className": "SFSearchWebApi",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFPara",
+    "tableName": "Sys_SFPara",
+    "desc": "参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFPara.ts",
+    "className": "SFPara",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFParaSelf",
+    "tableName": "Sys_SFPara",
+    "desc": "参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFParaSelf.ts",
+    "className": "SFParaSelf",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFParaSQL",
+    "tableName": "Sys_SFPara",
+    "desc": "参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFParaSQL.ts",
+    "className": "SFParaSQL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFParaSys",
+    "tableName": "Sys_SFPara",
+    "desc": "内置参数",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFParaSys.ts",
+    "className": "SFParaSys",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFTable",
+    "tableName": "Sys_SFTable",
+    "desc": "字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTable.ts",
+    "className": "SFTable",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableBPClass",
+    "tableName": "Sys_SFTable",
+    "desc": "SQL字典NoName",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableBPClass.ts",
+    "className": "SFTableBPClass",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableDtl",
+    "tableName": "Sys_SFTableDtl",
+    "desc": "字典数据",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableDtl.ts",
+    "className": "SFTableDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableHandler",
+    "tableName": "Sys_SFTable",
+    "desc": "Handler字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableHandler.ts",
+    "className": "SFTableHandler",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableJS",
+    "tableName": "Sys_SFTable",
+    "desc": "JS字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableJS.ts",
+    "className": "SFTableJS",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableNoName",
+    "tableName": "Sys_SFTable",
+    "desc": "内置字典表NoName",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableNoName.ts",
+    "className": "SFTableNoName",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableSQLNoName",
+    "tableName": "Sys_SFTable",
+    "desc": "SQL字典NoName",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableSQLNoName.ts",
+    "className": "SFTableSQLNoName",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableSQLTree",
+    "tableName": "Sys_SFTable",
+    "desc": "SQL字典Tree",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableSQLTree.ts",
+    "className": "SFTableSQLTree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableTree",
+    "tableName": "Sys_SFTable",
+    "desc": "内置字典表Tree",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableTree.ts",
+    "className": "SFTableTree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableWebApiNoName",
+    "tableName": "Sys_SFTable",
+    "desc": "WebAPI字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableWebApiNoName.ts",
+    "className": "SFTableWebApiNoName",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SFTableWebApiTree",
+    "tableName": "Sys_SFTable",
+    "desc": "WebAPI字典表",
+    "filePath": "src/WF/Admin/FrmLogic/SFTable/SFTableWebApiTree.ts",
+    "className": "SFTableWebApiTree",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.WF.FrmOrg",
+    "tableName": "WF_FrmOrg",
+    "desc": "组织表单对应",
+    "filePath": "src/WF/Admin/FrmLogic/ShareFrm/FrmOrg.ts",
+    "className": "FrmOrg",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MyEnum",
+    "tableName": "Sys_SysEnum",
+    "desc": "枚举",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/MyEnum.ts",
+    "className": "MyEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEnum",
+    "tableName": "SysEnum",
+    "desc": "",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/SysEnum.ts",
+    "className": "SysEnum",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEnumLang",
+    "tableName": "SysEnumLang",
+    "desc": "",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/SysEnumLang.ts",
+    "className": "SysEnumLang",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.SysEnumMain",
+    "tableName": "Sys_EnumMain",
+    "desc": "枚举注册",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/SysEnumMain.ts",
+    "className": "SysEnumMain",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SysEnumMainInt",
+    "tableName": "Sys_EnumMain",
+    "desc": "枚举值Int",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/SysEnumMainInt.ts",
+    "className": "SysEnumMainInt",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.FrmUI.SysEnumMainString",
+    "tableName": "Sys_EnumMain",
+    "desc": "枚举值String",
+    "filePath": "src/WF/Admin/FrmLogic/SysEnum/SysEnumMainString.ts",
+    "className": "SysEnumMainString",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.Dept",
+    "tableName": "Port_Dept",
+    "desc": "部门",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/Dept.ts",
+    "className": "Dept",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.Port.OAFlowSort",
+    "tableName": "Port_OrgAdminerFlowSort",
+    "desc": "流程目录权限",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/OAFlowSort.ts",
+    "className": "OAFlowSort",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.OAFrmTree",
+    "tableName": "Port_OrgAdminerFrmTree",
+    "desc": "表单目录权限",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/OAFrmTree.ts",
+    "className": "OAFrmTree",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.Admin2Group.Org",
+    "tableName": "Port_Org",
+    "desc": " 独立组织",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/Org.ts",
+    "className": "Org",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.OrgAdminer",
+    "tableName": "Port_OrgAdminer",
+    "desc": "组织管理员",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/OrgAdminer.ts",
+    "className": "OrgAdminer",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Port.User",
+    "tableName": "Port_User",
+    "desc": "用户",
+    "filePath": "src/WF/Admin/Organization/Admin2Group/User.ts",
+    "className": "User",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Port.AdminGroup.Org",
+    "tableName": "Port_Org",
+    "desc": " 独立组织",
+    "filePath": "src/WF/Admin/Organization/AdminGroup/Org.ts",
+    "className": "Org",
+    "baseClass": "EntityTree"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNode11",
+    "tableName": "WF_FrmNode",
+    "desc": "表单节点权限",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln11/FrmNode11.ts",
+    "className": "FrmNode11",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.Sln11",
+    "tableName": "WF_Node",
+    "desc": "单表单(绑定独立表单)",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln11/Sln11.ts",
+    "className": "Sln11",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.AttrNode.FrmAttachmentSln",
+    "tableName": "Sys_FrmAttachment",
+    "desc": "附件属性",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/FrmAttachmentSln.ts",
+    "className": "FrmAttachmentSln",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNodeBatch",
+    "tableName": "WF_FrmNode",
+    "desc": "批量修改",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/FrmNodeBatch.ts",
+    "className": "FrmNodeBatch",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNodeCtrlSln",
+    "tableName": "WF_FrmNode",
+    "desc": "表单权限方案",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/FrmNodeCtrlSln.ts",
+    "className": "FrmNodeCtrlSln",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNodeExt",
+    "tableName": "WF_FrmNode",
+    "desc": "节点表单属性",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/FrmNodeExt.ts",
+    "className": "FrmNodeExt",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.FrmNodeField",
+    "tableName": "Sys_FrmSln",
+    "desc": "字段权限",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/FrmNodeField.ts",
+    "className": "FrmNodeField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.AttrNode.MapDtlSln",
+    "tableName": "Sys_MapDtl",
+    "desc": "从表属性",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/MapDtlSln.ts",
+    "className": "MapDtlSln",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.AttrNode.Sln5",
+    "tableName": "WF_Node",
+    "desc": "多表单",
+    "filePath": "src/WF/Admin/AttrNode/FrmSln/Sln5/Sln5.ts",
+    "className": "Sln5",
+    "baseClass": "EntityNodeID"
+  },
+  {
+    "classId": "TS.Sys.SysEvent",
+    "tableName": "Sys_FrmEvent",
+    "desc": "系统事件",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEvent.ts",
+    "className": "SysEvent",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventBuessUnit",
+    "tableName": "Sys_FrmEvent",
+    "desc": "业务单元",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventBuessUnit.ts",
+    "className": "SysEventBuessUnit",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventDBSrc",
+    "tableName": "Sys_FrmEvent",
+    "desc": "数据源事件",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventDBSrc.ts",
+    "className": "SysEventDBSrc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventEventBase",
+    "tableName": "Sys_FrmEvent",
+    "desc": "事件基类",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventEventBase.ts",
+    "className": "SysEventEventBase",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventSFProc",
+    "tableName": "Sys_FrmEvent",
+    "desc": "服务事件",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventSFProc.ts",
+    "className": "SysEventSFProc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventSFWebApi",
+    "tableName": "Sys_FrmEvent",
+    "desc": "服务事件",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventSFWebApi.ts",
+    "className": "SysEventSFWebApi",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Sys.SysEventURL",
+    "tableName": "Sys_FrmEvent",
+    "desc": "服务事件",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/FrmEvent/SysEventURL.ts",
+    "className": "SysEventURL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.FrmUI.MapDataVer",
+    "tableName": "Sys_MapDataVer",
+    "desc": "表单模板版本管理",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/MapDataVer/MapDataVer.ts",
+    "className": "MapDataVer",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PageLoadFull",
+    "tableName": "Sys_MapExt",
+    "desc": "装载填充主表",
+    "filePath": "src/WF/Admin/FrmLogic/MapData/PageLoadFull/PageLoadFull.ts",
+    "className": "PageLoadFull",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEActiveDDL",
+    "tableName": "Sys_MapExt",
+    "desc": "级联下拉框",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl/ListShowModel/GPEActiveDDL.ts",
+    "className": "GPEActiveDDL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.Frm.ListShoModel2D",
+    "tableName": "Sys_MapDtl",
+    "desc": "2维表字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl/ListShowModel/ListShoModel2D.ts",
+    "className": "ListShoModel2D",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Frm.ListShoModel3D",
+    "tableName": "Sys_MapDtl",
+    "desc": "2维表字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl/ListShowModel/ListShoModel3D.ts",
+    "className": "ListShoModel3D",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.Frm.ListSort1Sort2",
+    "tableName": "Sys_MapDtl",
+    "desc": "大类小类",
+    "filePath": "src/WF/Admin/FrmLogic/MapDtl/ListShowModel/ListSort1Sort2.ts",
+    "className": "ListSort1Sort2",
+    "baseClass": "EntityNoName"
+  },
+  {
+    "classId": "TS.MapExt.GPEActiveDDLSelfSetting",
+    "tableName": "Sys_MapExt",
+    "desc": "级联下拉框",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/ActiveDDL/GPEActiveDDLSelfSetting.ts",
+    "className": "GPEActiveDDLSelfSetting",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEActiveDDLSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "级联下拉框",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/ActiveDDL/GPEActiveDDLSFTable.ts",
+    "className": "GPEActiveDDLSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEAutoFullDDLSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "填充过滤",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/AutoFullDLL/GPEAutoFullDDLSFTable.ts",
+    "className": "GPEAutoFullDDLSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEAutoFullDLL",
+    "tableName": "Sys_MapExt",
+    "desc": "设置显示过滤",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/AutoFullDLL/GPEAutoFullDLL.ts",
+    "className": "GPEAutoFullDLL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEAutoFullDtlField",
+    "tableName": "Sys_MapExt",
+    "desc": "对从表列求值",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/AutoFullDtlField/GPEAutoFullDtlField.ts",
+    "className": "GPEAutoFullDtlField",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.BindFunction",
+    "tableName": "Sys_MapExt",
+    "desc": "正则/函数",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/BindFunction/BindFunction.ts",
+    "className": "BindFunction",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.JSBody",
+    "tableName": "Sys_MapExt",
+    "desc": "函数体",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/BindFunction/JSBody.ts",
+    "className": "JSBody",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.RegularExpression",
+    "tableName": "Sys_MapExt",
+    "desc": "正则表达式",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/BindFunction/RegularExpression.ts",
+    "className": "RegularExpression",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.SelfFunc",
+    "tableName": "Sys_MapExt",
+    "desc": "函数体",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/BindFunction/SelfFunc.ts",
+    "className": "SelfFunc",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEDateFieldInputRole",
+    "tableName": "Sys_MapExt",
+    "desc": "日期输入规则",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/DateFieldInputRole/GPEDateFieldInputRole.ts",
+    "className": "GPEDateFieldInputRole",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEDtlDateFiledMaxMin",
+    "tableName": "Sys_MapExt",
+    "desc": "对从表列求值",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/DtlDataFieldMaxMin/GPEDtlDateFiledMaxMin.ts",
+    "className": "GPEDtlDateFiledMaxMin",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.EnumHidItem",
+    "tableName": "Sys_MapExt",
+    "desc": "点击事件隐藏选项",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/EnumHidItems/EnumHidItem.ts",
+    "className": "EnumHidItem",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FieldNumColor",
+    "tableName": "Sys_MapExt",
+    "desc": "数值字段颜色",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FieldNumColor/FieldNumColor.ts",
+    "className": "FieldNumColor",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FieldPopShowDtl",
+    "tableName": "Sys_MapExt",
+    "desc": "Pop数据撰取",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FieldPopShowDtl/FieldPopShowDtl.ts",
+    "className": "FieldPopShowDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FrmBillFlowSingleRole",
+    "tableName": "Frm_DBRole",
+    "desc": "单据单次流程规则",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FrmBillFlowSingleRole/FrmBillFlowSingleRole.ts",
+    "className": "FrmBillFlowSingleRole",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullAth",
+    "tableName": "Sys_MapExt",
+    "desc": "填充附件",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullAth.ts",
+    "className": "FullAth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullAthSelf",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullAthSelf.ts",
+    "className": "FullAthSelf",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullAthSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullAthSFTable.ts",
+    "className": "FullAthSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullBodySelf",
+    "tableName": "Sys_MapExt",
+    "desc": "落值填充-主表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullBodySelf.ts",
+    "className": "FullBodySelf",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullBodySFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "填充主表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullBodySFTable.ts",
+    "className": "FullBodySFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullData",
+    "tableName": "Sys_MapExt",
+    "desc": "数据填充",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullData.ts",
+    "className": "FullData",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDataDDL",
+    "tableName": "Sys_MapExt",
+    "desc": "填充下拉框",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDataDDL.ts",
+    "className": "FullDataDDL",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDDLSelf",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDDLSelf.ts",
+    "className": "FullDDLSelf",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDDLSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDDLSFTable.ts",
+    "className": "FullDDLSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDtl",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDtl.ts",
+    "className": "FullDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDtlSelf",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDtlSelf.ts",
+    "className": "FullDtlSelf",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.FullDtlSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "填充从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/FullData/FullDtlSFTable.ts",
+    "className": "FullDtlSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.MultipleChoiceSearchEn1",
+    "tableName": "Sys_MapExt",
+    "desc": "搜索多选",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/MultipleChoiceSearch/MultipleChoiceSearchEn1.ts",
+    "className": "MultipleChoiceSearchEn1",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.MultipleChoiceSearchEn2",
+    "tableName": "Sys_MapExt",
+    "desc": "搜索+输入多选",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/MultipleChoiceSearch/MultipleChoiceSearchEn2.ts",
+    "className": "MultipleChoiceSearchEn2",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopGroupList",
+    "tableName": "Sys_MapExt",
+    "desc": "分组列表弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopGroupList.ts",
+    "className": "PopGroupList",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopList",
+    "tableName": "Sys_MapExt",
+    "desc": "单实体平铺",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopList.ts",
+    "className": "PopList",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopSelfUrl",
+    "tableName": "Sys_MapExt",
+    "desc": "自定义url弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopSelfUrl.ts",
+    "className": "PopSelfUrl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTableSearch",
+    "tableName": "Sys_MapExt",
+    "desc": "表格弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTable.ts",
+    "className": "PopTableSearch",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTableSearch",
+    "tableName": "Sys_MapExt",
+    "desc": "表格弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTableSearch.ts",
+    "className": "PopTableSearch",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTableSimple",
+    "tableName": "Sys_MapExt",
+    "desc": "表格弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTableSimple.ts",
+    "className": "PopTableSimple",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTree",
+    "tableName": "Sys_MapExt",
+    "desc": "树干弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTree.ts",
+    "className": "PopTree",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTreeEns",
+    "tableName": "Sys_MapExt",
+    "desc": "树干叶子弹窗",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTreeEns.ts",
+    "className": "PopTreeEns",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.PopTreeEnsSFTable",
+    "tableName": "Sys_MapExt",
+    "desc": "树干叶子模式(绑定字典表)",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/Pop/PopTreeEnsSFTable.ts",
+    "className": "PopTreeEnsSFTable",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.LinkAttr",
+    "tableName": "Sys_MapExt",
+    "desc": "链接属性",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/ReadOnlyLink/LinkAttr.ts",
+    "className": "LinkAttr",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPERadioBtns",
+    "tableName": "Sys_MapExt",
+    "desc": "",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/RadioBtns/GPERadioBtns.ts",
+    "className": "GPERadioBtns",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.RBAth",
+    "tableName": "Sys_MapExt",
+    "desc": "联动附件",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/RadioBtns/RBAth.ts",
+    "className": "RBAth",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.RBAttr",
+    "tableName": "Sys_MapExt",
+    "desc": "联动字段",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/RadioBtns/RBAttr.ts",
+    "className": "RBAttr",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.RBDtl",
+    "tableName": "Sys_MapExt",
+    "desc": "联动从表",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/RadioBtns/RBDtl.ts",
+    "className": "RBDtl",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.GPEReqDays",
+    "tableName": "Sys_MapExt",
+    "desc": "两个日期之差",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/ReqDays/GPEReqDays.ts",
+    "className": "GPEReqDays",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.MENoNameP0",
+    "tableName": "Sys_MapExt",
+    "desc": "编号名称字典(无参)",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/SFTable/MENoNameP0.ts",
+    "className": "MENoNameP0",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.MENoNameP1",
+    "tableName": "Sys_MapExt",
+    "desc": "编号名称字典(有参)",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/SFTable/MENoNameP1.ts",
+    "className": "MENoNameP1",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.TBFullCtrl1",
+    "tableName": "Sys_MapExt",
+    "desc": "文本框自动完成",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/TBFullCtrl/TBFullCtrl1.ts",
+    "className": "TBFullCtrl1",
+    "baseClass": "EntityMyPK"
+  },
+  {
+    "classId": "TS.MapExt.TBFullCtrl2",
+    "tableName": "Sys_MapExt",
+    "desc": "文本框自动完成2",
+    "filePath": "src/WF/Admin/FrmLogic/MapExt/TBFullCtrl/TBFullCtrl2.ts",
+    "className": "TBFullCtrl2",
+    "baseClass": "EntityMyPK"
+  }
+]

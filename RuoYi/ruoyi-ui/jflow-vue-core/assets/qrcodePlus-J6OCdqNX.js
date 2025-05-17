@@ -1,0 +1,1 @@
+import{r as o}from"./drawCanvas--RF8nFfC.js";import{drawLogo as t}from"./drawLogo-BYvwabXU.js";const r=e=>o(e).then(()=>e).then(t),l=Object.freeze(Object.defineProperty({__proto__:null,toCanvas:r},Symbol.toStringTag,{value:"Module"})),s=Object.freeze(Object.defineProperty({__proto__:null,toCanvas:r},Symbol.toStringTag,{value:"Module"}));export{l as a,s as q,r as t};

@@ -1,0 +1,1 @@
+import{aI as e,d as o,I as a}from"./antd-C8r6Ue4p.js";import{f as l}from"./vue-B6GVRDGm.js";const s={props:{dataModel:{type:Object,default:()=>({})}},components:{AntInput:a,AntSelect:o,AntSelectOption:e},setup(t){return{modelVal:l(t.dataModel)}},template:"#form-html-content"};export{s as default};

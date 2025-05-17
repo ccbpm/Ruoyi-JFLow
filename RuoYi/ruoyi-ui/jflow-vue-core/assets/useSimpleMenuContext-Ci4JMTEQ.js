@@ -1,0 +1,1 @@
+import{ax as o,ay as n}from"./entry/index-B5R3Coa4-1746862693206.js";import"./vue-B6GVRDGm.js";import"./antd-C8r6Ue4p.js";const t=Symbol();function i(e){return n(e,t,{readonly:!1,native:!0})}function m(){return o(t)}export{i as createSimpleRootMenuContext,m as useSimpleRootMenuContext};

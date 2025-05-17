@@ -1,0 +1,1 @@
+import{j as a}from"./antd-C8r6Ue4p.js";import{d as o,_ as r,$ as s,U as n,G as l,k as d,a2 as c,u as i}from"./vue-B6GVRDGm.js";const p={class:"edit-header-cell"},f=o({name:"EditTableHeaderIcon",__name:"EditTableHeaderIcon",props:{title:{type:String,default:""}},setup(e){return(t,m)=>(s(),r("span",p,[n(t.$slots,"default"),l(" "+c(e.title)+" ",1),d(i(a))]))}});export{f as _};
